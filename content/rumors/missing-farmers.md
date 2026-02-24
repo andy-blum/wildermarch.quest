@@ -1,5 +1,5 @@
 ---
-title: Missing Farmers
+title: Missing Farmers (example)
 source: tavern
 status: open
 locations:

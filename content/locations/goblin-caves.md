@@ -1,5 +1,5 @@
 ---
-name: Goblin Caves
+name: Goblin Caves (example)
 type: dungeon
 status: discovered
 parent: ironwood-forest

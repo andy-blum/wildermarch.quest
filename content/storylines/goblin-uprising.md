@@ -1,5 +1,5 @@
 ---
-name: The Goblin Uprising
+name: The Goblin Uprising (example)
 status: active
 factions:
   - goblin-tribe

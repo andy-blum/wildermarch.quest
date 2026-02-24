@@ -1,5 +1,5 @@
 ---
-name: Goblin
+name: Goblin (example)
 type: humanoid
 threat: low
 ---

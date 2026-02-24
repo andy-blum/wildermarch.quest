@@ -1,5 +1,5 @@
 ---
-name: Ironwood Forest
+name: Ironwood Forest (example)
 type: wilderness
 status: explored
 parent:

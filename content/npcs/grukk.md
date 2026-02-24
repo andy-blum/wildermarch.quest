@@ -1,5 +1,5 @@
 ---
-name: Grukk the Fierce
+name: Grukk the Fierce (example)
 location: goblin-caves
 faction: goblin-tribe
 disposition: hostile

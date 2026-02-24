@@ -1,8 +1,8 @@
 ---
-name: Serrated Goblin Blade
+name: Serrated Goblin Blade (example)
 type: weapon
 rarity: common
-owner: example-character
+owner:
 origin: goblin-caves
 ---
 

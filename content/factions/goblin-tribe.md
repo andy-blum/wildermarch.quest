@@ -1,5 +1,5 @@
 ---
-name: Ironwood Goblin Tribe
+name: Ironwood Goblin Tribe (example)
 disposition: hostile
 headquarters: goblin-caves
 ---
