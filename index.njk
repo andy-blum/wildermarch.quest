@@ -7,20 +7,15 @@ permalink: /
 <p>A West Marches campaign tracker.</p>
 
 <h2>Recent Sessions</h2>
-<ul>
-{% for session in collections.sessions.slice(0, 5) %}
-  <li><a href="{{ session.url }}">{{ session.data.title }}</a> ({{ session.data.date }})</li>
-{% endfor %}
-</ul>
-
-<h2>Active Characters</h2>
-<ul>
-{% for char in collections.characters %}
-  {% if char.data.status == "active" %}
-  <li><a href="{{ char.url }}">{{ char.data.name }}</a> - {{ char.data.class }} {{ char.data.level }}</li>
+{% for session in collections.sessions | head(5) %}
+<article class="session-card">
+  <h3><a href="{{ session.url }}">{{ session.data.title }}</a></h3>
+  <p class="meta">{{ session.data.date | dateDisplay }}</p>
+  {% if session.content | trim %}
+  <p>{{ session.content | striptags | truncate(200) }}</p>
   {% endif %}
+</article>
 {% endfor %}
-</ul>
 
 <h2>Open Rumors</h2>
 <ul>

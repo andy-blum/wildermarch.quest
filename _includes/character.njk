@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ class }} | Level {{ level }} | {{ status }}</p>
+<p>{{ race }} {{ class }}{% if subclass %} ({{ subclass }}){% endif %} <span class="tag">{{ status }}</span></p>
 
 {{ content | safe }}
 
@@ -12,7 +12,7 @@ layout: base.njk
   <h2>Sessions</h2>
   <ul>
     {% for session in charSessions %}
-    <li><a href="{{ session.url }}">{{ session.data.title }}</a> ({{ session.data.date }})</li>
+    <li><a href="{{ session.url }}">{{ session.data.title }}</a> <span class="meta">{{ session.data.date | dateDisplay }}</span></li>
     {% endfor %}
   </ul>
 </section>

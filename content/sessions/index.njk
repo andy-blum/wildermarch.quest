@@ -4,11 +4,12 @@ title: Sessions
 permalink: /sessions/
 ---
 <h1>Sessions</h1>
-<ul>
-{% for session in collections.sessions %}
+
+<ol class="session-list">
+{% for session in collections.sessions | reverse %}
   <li>
     <a href="{{ session.url }}">{{ session.data.title }}</a>
-    ({{ session.data.date }})
+    <span class="meta">{{ session.data.date | dateDisplay }}</span>
   </li>
 {% endfor %}
-</ul>
+</ol>
