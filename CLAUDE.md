@@ -29,25 +29,11 @@ fonts/             # Static font files (passthrough)
 docs/              # Documentation (excluded from build via .eleventyignore)
 ```
 
-Full content model documentation with field descriptions and relationships: `docs/CONTENT_MODEL.md`
-
 ### Content Model
 
-Each content type is a collection of markdown files with YAML frontmatter. Files are referenced by their slug (filename without extension).
+Each content type is a collection of markdown files with YAML frontmatter. Files are referenced by their slug (filename without extension). Each content directory has a `TEMPLATE.md` showing the available fields.
 
-| Type | Fields |
-|------|--------|
-| **Characters** | name, class, level, status (active/retired/dead) |
-| **Sessions** | title, date, characters[], locations[], npcs[], creatures[], items[], storylines[] |
-| **Locations** | name, type, status (rumored/discovered/explored), parent, factions[] |
-| **NPCs** | name, location, faction, disposition, alive |
-| **Rumors** | title, source, status (open/completed/failed), locations[], npcs[], factions[] |
-| **Factions** | name, disposition, headquarters |
-| **Items** | name, type, rarity, owner, origin |
-| **Creatures** | name, type, threat |
-| **Storylines** | name, status (active/completed/abandoned), factions[], locations[] |
-
-Array fields (e.g., `characters[]`) reference other content by slug.
+Full content model documentation with field descriptions and relationships: `docs/CONTENT_MODEL.md`
 
 ### Relationships
 

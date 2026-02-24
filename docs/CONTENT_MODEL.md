@@ -11,7 +11,7 @@ Player characters in the campaign.
 |-------|------|-------------|
 | name | string | Character's full name |
 | class | string | Character class (Fighter, Wizard, etc.) |
-| level | number | Current level |
+| titles | string[] | Titles or honorifics gained |
 | status | enum | `active`, `retired`, or `dead` |
 
 **Reverse relationships:**
