@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Factions
+permalink: /factions/
+---
+<h1>Factions</h1>
+<ul>
+{% for faction in collections.factions %}
+  <li>
+    <a href="{{ faction.url }}">{{ faction.data.name }}</a>
+    ({{ faction.data.disposition }})
+  </li>
+{% endfor %}
+</ul>

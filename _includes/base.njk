@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or name }} | West of Wonder</title>
+</head>
+<body>
+  <div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/characters/">Characters</a>
+      <a href="/sessions/">Sessions</a>
+      <a href="/locations/">Locations</a>
+      <a href="/npcs/">NPCs</a>
+      <a href="/factions/">Factions</a>
+      <a href="/storylines/">Storylines</a>
+      <a href="/rumors/">Rumors</a>
+      <a href="/items/">Items</a>
+      <a href="/creatures/">Creatures</a>
+    </nav>
+    {{ content | safe }}
+  </div>
+</body>
+</html>

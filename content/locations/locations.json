@@ -1,0 +1,5 @@
+{
+  "layout": "location.njk",
+  "tags": "locations",
+  "permalink": "/locations/{{ page.fileSlug }}/"
+}

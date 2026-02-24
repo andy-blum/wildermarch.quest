@@ -1,0 +1,5 @@
+{
+  "layout": "character.njk",
+  "tags": "characters",
+  "permalink": "/characters/{{ page.fileSlug }}/"
+}

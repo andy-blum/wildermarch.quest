@@ -1,0 +1,31 @@
+---
+layout: base.njk
+---
+<h1>{{ name }}</h1>
+<p>{{ class }} | Level {{ level }} | {{ status }}</p>
+
+{{ content | safe }}
+
+{% set charSessions = collections.sessions | mentionedIn("characters", page.fileSlug) %}
+{% if charSessions.length %}
+<section>
+  <h2>Sessions</h2>
+  <ul>
+    {% for session in charSessions %}
+    <li><a href="{{ session.url }}">{{ session.data.title }}</a> ({{ session.data.date }})</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set charItems = collections.items | whereField("owner", page.fileSlug) %}
+{% if charItems.length %}
+<section>
+  <h2>Items</h2>
+  <ul>
+    {% for item in charItems %}
+    <li><a href="{{ item.url }}">{{ item.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

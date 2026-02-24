@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Rumors
+permalink: /rumors/
+---
+<h1>Rumors</h1>
+<ul>
+{% for rumor in collections.rumors %}
+  <li>
+    <a href="{{ rumor.url }}">{{ rumor.data.title }}</a>
+    ({{ rumor.data.source }}, {{ rumor.data.status }})
+  </li>
+{% endfor %}
+</ul>

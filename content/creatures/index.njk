@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Creatures
+permalink: /creatures/
+---
+<h1>Creatures</h1>
+<ul>
+{% for creature in collections.creatures %}
+  <li>
+    <a href="{{ creature.url }}">{{ creature.data.name }}</a>
+    ({{ creature.data.type }}, {{ creature.data.threat }} threat)
+  </li>
+{% endfor %}
+</ul>

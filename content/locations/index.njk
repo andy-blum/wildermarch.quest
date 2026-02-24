@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Locations
+permalink: /locations/
+---
+<h1>Locations</h1>
+<ul>
+{% for loc in collections.locations %}
+  <li>
+    <a href="{{ loc.url }}">{{ loc.data.name }}</a>
+    ({{ loc.data.type }}, {{ loc.data.status }})
+  </li>
+{% endfor %}
+</ul>

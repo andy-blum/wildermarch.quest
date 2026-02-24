@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Items
+permalink: /items/
+---
+<h1>Items</h1>
+<ul>
+{% for item in collections.items %}
+  <li>
+    <a href="{{ item.url }}">{{ item.data.name }}</a>
+    ({{ item.data.type }}, {{ item.data.rarity }})
+  </li>
+{% endfor %}
+</ul>

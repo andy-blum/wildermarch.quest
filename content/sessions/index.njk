@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Sessions
+permalink: /sessions/
+---
+<h1>Sessions</h1>
+<ul>
+{% for session in collections.sessions %}
+  <li>
+    <a href="{{ session.url }}">{{ session.data.title }}</a>
+    ({{ session.data.date }})
+  </li>
+{% endfor %}
+</ul>

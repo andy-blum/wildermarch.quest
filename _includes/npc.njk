@@ -1,0 +1,55 @@
+---
+layout: base.njk
+---
+<h1>{{ name }}</h1>
+<p>{{ disposition }}{% if not alive %} | Deceased{% endif %}</p>
+
+{{ content | safe }}
+
+{% if location %}
+{% set npcLoc = collections.locations | find(location) %}
+{% if npcLoc %}
+<section>
+  <h2>Location</h2>
+  <ul>
+    <li><a href="{{ npcLoc.url }}">{{ npcLoc.data.name }}</a></li>
+  </ul>
+</section>
+{% endif %}
+{% endif %}
+
+{% if faction %}
+{% set npcFaction = collections.factions | find(faction) %}
+{% if npcFaction %}
+<section>
+  <h2>Faction</h2>
+  <ul>
+    <li><a href="{{ npcFaction.url }}">{{ npcFaction.data.name }}</a></li>
+  </ul>
+</section>
+{% endif %}
+{% endif %}
+
+{% set npcSessions = collections.sessions | mentionedIn("npcs", page.fileSlug) %}
+{% if npcSessions.length %}
+<section>
+  <h2>Sessions</h2>
+  <ul>
+    {% for session in npcSessions %}
+    <li><a href="{{ session.url }}">{{ session.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set npcRumors = collections.rumors | mentionedIn("npcs", page.fileSlug) %}
+{% if npcRumors.length %}
+<section>
+  <h2>Rumors</h2>
+  <ul>
+    {% for rumor in npcRumors %}
+    <li><a href="{{ rumor.url }}">{{ rumor.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

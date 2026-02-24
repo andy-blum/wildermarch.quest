@@ -1,0 +1,19 @@
+---
+layout: base.njk
+---
+<h1>{{ name }}</h1>
+<p>{{ type }} | {{ threat }} threat</p>
+
+{{ content | safe }}
+
+{% set creatureSessions = collections.sessions | mentionedIn("creatures", page.fileSlug) %}
+{% if creatureSessions.length %}
+<section>
+  <h2>Encountered In</h2>
+  <ul>
+    {% for session in creatureSessions %}
+    <li><a href="{{ session.url }}">{{ session.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
