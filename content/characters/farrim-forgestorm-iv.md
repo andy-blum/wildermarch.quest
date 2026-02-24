@@ -1,0 +1,14 @@
+---
+name: Farrim Forgestorm IV
+class: Artificer - Alchemist
+titles: []
+status: active
+---
+
+Farrim Forgestorm IV spent his formative life in the Underdark. A member of the famed Forgestorm clan, Farrim learned how to craft the finest armor and weaponry for one of the most powerful families in the Underdark. Like many Duergar, Farrim is short, dark of skin, and bearded. Unlike many Duergar, Farrim has a zest for life, discovery, and much to the chagrin of his father, Farrim III, a real predisposition for exploring new chemical concoctions.
+
+Continued exposure to toxic fumes as part of Farrim's various alchemical experiments were hardly the best pairing with his work on the family forge. The Underdark is hardly well ventilated, and his experiments began to fray his senses. Farrim became paranoid, jumpy, and easily startled. His work at the forge became subsumed by his own experiments, and his work suffered.
+
+Eventually, exasperated with his son's constant burning out of his own brain, Farrim's father exiled him to the surface. Farrim, for his part, was more than pleased to join the Noble Order of Discovery and Exploration on his search for both new chemicals to play with and perhaps some relief for his worst symptoms after all of his tinkering.
+
+> "Hi, yeah, how ya doin? Paranoid? I don't see what you're talking about. Maybe YOU'RE paranoid. Did ya ever consider that?"
