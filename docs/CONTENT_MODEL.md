@@ -149,6 +149,22 @@ Ongoing plot arcs and questlines.
 
 ---
 
+### Documents
+In-world writings authored by characters.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| title | string | Document title |
+| type | string | `report`, `letter`, `journal`, `note`, etc. |
+| author | slug | Character who wrote it |
+| session | slug | Related session (optional) |
+| date | date | When written |
+
+**Reverse relationships:**
+- None currently
+
+---
+
 ## Slug References
 
 Content is linked by **slug** - the filename without the `.md` extension.

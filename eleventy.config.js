@@ -1,5 +1,6 @@
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy("css");
 
   // Content collections
   eleventyConfig.addCollection("characters", collection =>
@@ -29,6 +30,30 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addCollection("storylines", collection =>
     collection.getFilteredByGlob("content/storylines/*.md"));
+
+  eleventyConfig.addCollection("documents", collection =>
+    collection.getFilteredByGlob("content/documents/*.md").sort((a, b) =>
+      new Date(b.data.date) - new Date(a.data.date)));
+
+  // Limit collection to first N items
+  eleventyConfig.addFilter("head", (collection, n) => collection.slice(0, n));
+
+  // Sort collection by nested data field
+  eleventyConfig.addFilter("sortBy", (collection, field) =>
+    [...collection].sort((a, b) => {
+      const aVal = a.data[field] || '';
+      const bVal = b.data[field] || '';
+      return aVal.localeCompare(bVal);
+    }));
+
+  // Date formatting
+  eleventyConfig.addFilter("dateDisplay", date => {
+    return new Date(date).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  });
 
   // Filter to find items by slug
   eleventyConfig.addFilter("find", (collection, slug) =>
