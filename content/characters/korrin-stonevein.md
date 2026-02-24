@@ -1,6 +1,8 @@
 ---
 name: Korrin Stonevein
+race: Dwarf
 class: Barbarian
+background: Outlander
 titles: []
 status: active
 ---

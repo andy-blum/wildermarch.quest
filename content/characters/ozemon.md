@@ -1,6 +1,9 @@
 ---
 name: Ozemon
-class: Sorcerer (Draconic)
+race: Tiefling
+class: Sorcerer
+subclass: Draconic Bloodline
+background: Noble
 titles: []
 status: active
 ---

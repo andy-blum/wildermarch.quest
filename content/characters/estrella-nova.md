@@ -1,6 +1,8 @@
 ---
 name: Estrella Nova
+race: Dwarf
 class: Druid
+background: Scholar
 titles: []
 status: active
 ---

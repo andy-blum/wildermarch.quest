@@ -1,8 +1,11 @@
 ---
 name: Arkose Marl
+race: Tiefling
 class: Druid
+background: Acolyte
 titles: []
 status: active
+dndbeyond: https://www.dndbeyond.com/characters/154502742
 ---
 
 The desert has been my home for the entire life that I have known. The sun was my friend before any other, and the rocks below my feet have whispered their stories alongside my lullabies.

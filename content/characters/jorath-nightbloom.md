@@ -1,6 +1,8 @@
 ---
 name: Jorath Nightbloom
+race: High Elf (Moon)
 class: Wizard
+background: Cloistered Scholar
 titles: []
 status: active
 ---

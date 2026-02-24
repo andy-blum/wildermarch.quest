@@ -1,6 +1,9 @@
 ---
 name: Shadow
+race: Tabaxi
 class: Monk
+subclass: Way of Shadow
+background: Criminal/Spy
 titles: []
 status: active
 ---

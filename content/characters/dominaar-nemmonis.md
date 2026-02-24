@@ -1,6 +1,8 @@
 ---
 name: Dominaar Nemmonis
+race: Dragonborn
 class: Paladin/Warlock
+background: Entertainer
 titles: []
 status: active
 ---

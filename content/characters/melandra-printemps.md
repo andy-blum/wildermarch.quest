@@ -1,6 +1,9 @@
 ---
 name: Melandra (Mel) Printemps
-class: Rogue (Mastermind)
+race: Human
+class: Rogue
+subclass: Mastermind
+background: Noble
 titles: []
 status: active
 ---

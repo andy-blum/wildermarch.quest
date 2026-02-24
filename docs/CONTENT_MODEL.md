@@ -10,9 +10,13 @@ Player characters in the campaign.
 | Field | Type | Description |
 |-------|------|-------------|
 | name | string | Character's full name |
+| race | string | Character race (Human, Elf, Dwarf, etc.) |
 | class | string | Character class (Fighter, Wizard, etc.) |
+| subclass | string | Character subclass (optional) |
+| background | string | Character background (optional) |
 | titles | string[] | Titles or honorifics gained |
 | status | enum | `active`, `retired`, or `dead` |
+| dndbeyond | url | Link to D&D Beyond character sheet (optional) |
 
 **Reverse relationships:**
 - Sessions they participated in

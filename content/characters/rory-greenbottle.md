@@ -1,6 +1,8 @@
 ---
 name: Rory Greenbottle
+race: Halfling
 class: Wizard
+background: Charlatan
 titles: []
 status: active
 ---

@@ -4,11 +4,49 @@ title: Characters
 permalink: /characters/
 ---
 <h1>Characters</h1>
-<ul>
-{% for char in collections.characters %}
-  <li>
-    <a href="{{ char.url }}">{{ char.data.name }}</a>
-    ({{ char.data.class }}, Level {{ char.data.level }}, {{ char.data.status }})
-  </li>
-{% endfor %}
-</ul>
+
+<h2>Active</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Race</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for char in collections.characters | sortBy('name') %}
+    {% if char.data.status == 'active' %}
+    <tr>
+      <td><a href="{{ char.url }}">{{ char.data.name }}</a></td>
+      <td>{{ char.data.race }}</td>
+      <td>{{ char.data.class }}{% if char.data.subclass %} ({{ char.data.subclass }}){% endif %}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Retired & Fallen</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Race</th>
+      <th>Class</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for char in collections.characters | sortBy('name') %}
+    {% if char.data.status == 'retired' or char.data.status == 'dead' %}
+    <tr>
+      <td><a href="{{ char.url }}">{{ char.data.name }}</a></td>
+      <td>{{ char.data.race }}</td>
+      <td>{{ char.data.class }}{% if char.data.subclass %} ({{ char.data.subclass }}){% endif %}</td>
+      <td><span class="status status--{{ char.data.status }}">{{ char.data.status }}</span></td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>

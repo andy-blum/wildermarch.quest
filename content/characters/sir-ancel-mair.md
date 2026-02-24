@@ -1,6 +1,8 @@
 ---
 name: Sir Ancel Mai'r
-class: Fighter (EK)
+race: Hexblood
+class: Fighter
+subclass: Eldritch Knight
 titles: []
 status: active
 ---

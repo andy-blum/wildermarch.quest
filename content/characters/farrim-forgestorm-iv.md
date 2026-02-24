@@ -1,8 +1,12 @@
 ---
 name: Farrim Forgestorm IV
-class: Artificer - Alchemist
+race: Duergar
+class: Artificer
+subclass: Alchemist
+background: Guild Merchant
 titles: []
 status: active
+dndbeyond: https://www.dndbeyond.com/characters/153829475
 ---
 
 Farrim Forgestorm IV spent his formative life in the Underdark. A member of the famed Forgestorm clan, Farrim learned how to craft the finest armor and weaponry for one of the most powerful families in the Underdark. Like many Duergar, Farrim is short, dark of skin, and bearded. Unlike many Duergar, Farrim has a zest for life, discovery, and much to the chagrin of his father, Farrim III, a real predisposition for exploring new chemical concoctions.

@@ -1,6 +1,8 @@
 ---
 name: Tol Knell
+race: Human
 class: Ranger
+background: Acolyte
 titles: []
 status: active
 ---
