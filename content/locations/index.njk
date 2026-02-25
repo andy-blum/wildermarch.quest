@@ -8,6 +8,7 @@ permalink: /locations/
 <table>
   <thead>
     <tr>
+      <th></th>
       <th>Name</th>
       <th>Type</th>
       <th>Status</th>
@@ -16,6 +17,7 @@ permalink: /locations/
   <tbody>
     {% for loc in collections.locations | sortBy('name') %}
     <tr>
+      <td class="table-thumb">{% if loc.data.image %}<img src="/images/locations/{{ loc.data.image }}" alt="">{% endif %}</td>
       <td><a href="{{ loc.url }}">{{ loc.data.name }}</a></td>
       <td>{{ loc.data.type }}</td>
       <td><span class="tag">{{ loc.data.status }}</span></td>

@@ -8,6 +8,7 @@ permalink: /items/
 <table>
   <thead>
     <tr>
+      <th></th>
       <th>Name</th>
       <th>Type</th>
       <th>Rarity</th>
@@ -18,6 +19,7 @@ permalink: /items/
     {% for item in collections.items | sortBy('name') %}
     {% set itemOwner = collections.characters | find(item.data.owner) %}
     <tr>
+      <td class="table-thumb">{% if item.data.image %}<img src="/images/items/{{ item.data.image }}" alt="">{% endif %}</td>
       <td><a href="{{ item.url }}">{{ item.data.name }}</a></td>
       <td>{{ item.data.type }}</td>
       <td><span class="tag">{{ item.data.rarity }}</span></td>

@@ -224,6 +224,19 @@ tbody tr:hover {
   background-color: var(--color-surface);
 }
 
+/* Table thumbnails */
+.table-thumb {
+  width: 40px;
+  padding: 0.25rem;
+}
+
+.table-thumb img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 /* Status badges */
 .status {
   display: inline-block;

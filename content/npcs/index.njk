@@ -8,6 +8,7 @@ permalink: /npcs/
 <table>
   <thead>
     <tr>
+      <th></th>
       <th>Name</th>
       <th>Location</th>
       <th>Disposition</th>
@@ -18,6 +19,7 @@ permalink: /npcs/
     {% if npc.data.alive %}
     {% set npcLoc = collections.locations | find(npc.data.location) %}
     <tr>
+      <td class="table-thumb">{% if npc.data.image %}<img src="/images/npcs/{{ npc.data.image }}" alt="">{% endif %}</td>
       <td><a href="{{ npc.url }}">{{ npc.data.name }}</a></td>
       <td>{% if npcLoc %}<a href="{{ npcLoc.url }}">{{ npcLoc.data.name }}</a>{% else %}—{% endif %}</td>
       <td><span class="tag">{{ npc.data.disposition }}</span></td>
@@ -31,6 +33,7 @@ permalink: /npcs/
 <table>
   <thead>
     <tr>
+      <th></th>
       <th>Name</th>
       <th>Disposition</th>
     </tr>
@@ -39,6 +42,7 @@ permalink: /npcs/
     {% for npc in collections.npcs | sortBy('name') %}
     {% if not npc.data.alive %}
     <tr>
+      <td class="table-thumb">{% if npc.data.image %}<img src="/images/npcs/{{ npc.data.image }}" alt="">{% endif %}</td>
       <td><a href="{{ npc.url }}">{{ npc.data.name }}</a></td>
       <td><span class="tag">{{ npc.data.disposition }}</span></td>
     </tr>
