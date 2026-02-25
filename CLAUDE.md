@@ -24,6 +24,7 @@ content/           # All content as markdown files
   items/           # Notable equipment and artifacts
   creatures/       # Bestiary
   storylines/      # Ongoing plot arcs
+  documents/       # In-world writings (journals, reports, letters)
 _includes/         # Nunjucks layout templates
 fonts/             # Static font files (passthrough)
 docs/              # Documentation (excluded from build via .eleventyignore)
@@ -46,16 +47,5 @@ Relationships are computed automatically via Eleventy filters defined in `eleven
 ### Adding Content
 
 1. Create a markdown file in the appropriate `content/` subdirectory
-2. Add required frontmatter fields
+2. Copy frontmatter from the `TEMPLATE.md` in that directory
 3. Reference other content by slug (filename without .md)
-
-Example character (`content/characters/thorin.md`):
-```yaml
----
-name: Thorin Ironforge
-class: Fighter
-level: 3
-status: active
----
-Character description here.
-```
