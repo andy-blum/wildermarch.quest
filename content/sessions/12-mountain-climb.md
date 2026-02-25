@@ -57,7 +57,7 @@ The stranger walked calmly through the lingering spirits and approached Mulchban
 
 Grit spoke easily, offering hospitality and conversation. Jorath probed his thoughts and found not secrets or defenses, but an oasis-like innocence—childlike, simple, and warm. Grit barely seemed to notice the intrusion, thanking Jorath instead for reminding him of a pot left on the fire.
 
-He led the party to his camp: an ornate fabric tent anchored high on the mountain, impossibly comfortable for someone living alone in the desert. There, he offered them drinks brewed from the cactids themselves. Each draught changed the drinker in subtle but lasting ways—fire resistance, sharpened senses, booming voices, altered sight, memories compelled into the open.
+He led the party to his camp: an ornate fabric tent anchored high on the mountain, impossibly comfortable for someone living alone in the desert. There, he offered them drinks brewed from the cactids themselves. Each draught changed the drinker in subtle but lasting ways—fire resistance, sharpened senses, booming voices, altered sight, memories compelled into the open. In a sign of friendship, Jorath gifted his wand of fireballs with its remaining charges to Grit. In response, Grit invited the party to each take an item from his collection upon their departure.
 
 Their conversation was interrupted when Grit stiffened and raised a hand. Someone was coming.
 
@@ -66,3 +66,25 @@ An old woman—seven feet tall, hunched, and carried on swirling dust—arrived 
 Afterward, Grit struggled to explain. Questions about the hag, the potions, and his work slipped from his grasp, as if something prevented him from answering. Helena’s magic finally cracked the facade, revealing fragments: a bargain, raw magic, and the sense that Grit’s time was running out. The connection was violently severed, and for a moment Helena forgot her companions entirely—seeing only the hag pointing at her from the desert below.
 
 When it passed, Grit laughed it off, gesturing across the land. He pointed out an oasis to the left, a great lake crowned by a leaning wizard’s tower, and vibrant pink swamps to the south where lizardfolk lived—good people, he said.
+
+## Loot
+
+* 1 [Mind sharpener](https://www.dndbeyond.com/magic-items/10886045-mind-sharpener) (4 charges, no recharge) for Madam Helena
+* 1 [Wand of secrets](https://www.dndbeyond.com/magic-items/4797-wand-of-secrets) (3 charges, no recharge) for Jorath
+* 1 [Cartographer's map case](https://www.dndbeyond.com/magic-items/702253-cartographers-map-case) for Quick (replaces cartographer's kit, +2 to relevant checks)
+* [Gloves of swimming and climbing](https://www.dndbeyond.com/magic-items/4647-gloves-of-swimming-and-climbing) for Mulchbane
+* [Oil of slipperiness](https://www.dndbeyond.com/magic-items/4689-oil-of-slipperiness) for Kouzlo
+
+Additionally, each character left with a single sip of Grit's tea, which provides unpredictable effects.
+
+Effects are minor and only last for one instance/round (GM discretion). Roll 1d10 when you want to use it and consult the table below. We will say you can use this as a reaction in combat should you wish.
+* **Mouth full of sand**: but advantage on Perception checks involving wind or movement
+* **Voice echoes slightly**: advantage on Intimidation, disadvantage on Stealth
+* **Skin dries and cracks**: resistance to fire damage, disadvantage on Persuasion
+* **Light as a feather**: advantage on climbing/jumping, but strong winds shove them 5 ft
+* **Eyes glow amber**:  darkvision or enhanced vision, but sunlight is uncomfortable
+* **Uncontrollable honesty**: must answer first direct question truthfully, or advantage on persuasion if given
+* **Mirage double**: once, an enemy attacks the illusion instead of the PC
+* **Taste memories**: gain insight about the mountain’s past, but nauseated for 1 turn in combat
+* **Cactus veins**: +1 AC for an hour, thorns prick anyone who grapples them
+* **Laughing fit**:  immune to fear for the duration, disadvantage on Concentration
