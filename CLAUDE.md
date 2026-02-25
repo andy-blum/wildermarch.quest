@@ -4,7 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Content Rules
 
-**IMPORTANT: `content/sessions/` and `content/documents/` are authoritative source material and MUST NOT be modified.** These contain human-written session logs and in-world documents that are canonical. Other content directories (characters, locations, npcs, etc.) contain AI-generated content that may be updated.
+**IMPORTANT: The following are authoritative source material and MUST NOT be modified:**
+- `content/sessions/` - Human-written session logs
+- `content/documents/` - In-world writings (journals, reports, letters)
+- Character `## Introduction` sections - Player-written backstories
+
+Other content (locations, npcs, factions, etc.) and the `## What We've Learned` sections of characters contain AI-generated/inferred content that may be updated based on session events.
 
 ## Commands
 

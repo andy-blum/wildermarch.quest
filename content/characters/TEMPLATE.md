@@ -10,4 +10,10 @@ status: active # active, retired, or dead
 dndbeyond: # optional, link to D&D Beyond character sheet
 ---
 
-Character description and backstory.
+## Introduction
+
+Character description and backstory (canonical, provided by player).
+
+## What We've Learned
+
+Details discovered through play - relationships formed, items acquired, events experienced (inferred from sessions).

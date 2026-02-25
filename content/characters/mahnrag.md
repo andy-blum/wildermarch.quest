@@ -8,6 +8,8 @@ titles: []
 status: active
 ---
 
+## Introduction
+
 Mahnrag Stonefist never thought of himself as clever. He didn’t need to be. In the gutters of Waterdeep’s docks, survival wasn’t about wit—it was about grit, and he had that in spades. What he did have, though, was love. His mother, Grasha, and his little sister, Lura, were the only warmth in a life otherwise shaped by cold stone and colder stares.
 
 They were desperately poor, even by Dock Ward standards. Grasha worked herself to exhaustion doing whatever labor she could find, and still there were nights when dinner was little more than broth and hope. When she fell ill, no healer would come. A penniless single orc mother wasn’t worth the time. Mahnrag was twelve when she passed, and the world seemed to shrink around him.
@@ -45,3 +47,7 @@ Now he wanders, trying to outrun memories that cling like chains. He throws hims
 But he can’t bring himself to end it. Some stubborn ember inside him refuses to die. Maybe it’s hope. Maybe it’s spite. Maybe it’s the faint belief that he can still become something more than the monster Waterdeep made him.
 
 Whatever it is, it keeps him moving.
+
+## What We've Learned
+
+*(No additional details from sessions yet)*
