@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Content Rules
+
+**IMPORTANT: `content/sessions/` and `content/documents/` are authoritative source material and MUST NOT be modified.** These contain human-written session logs and in-world documents that are canonical. Other content directories (characters, locations, npcs, etc.) contain AI-generated content that may be updated.
+
 ## Commands
 
 - `npm run start` - Start development server with live reload
