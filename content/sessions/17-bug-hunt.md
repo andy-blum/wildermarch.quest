@@ -1,5 +1,5 @@
 ---
-title: Bug Hunt
+title: Bug Hunt (needs recap)
 date: 2026-02-23
 characters:
   - quick

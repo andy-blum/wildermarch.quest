@@ -29,3 +29,15 @@ layout: base.njk
   </ul>
 </section>
 {% endif %}
+
+{% set charDocs = collections.documents | whereField("author", page.fileSlug) %}
+{% if charDocs.length %}
+<section>
+  <h2>Documents</h2>
+  <ul>
+    {% for doc in charDocs %}
+    <li><a href="{{ doc.url }}">{{ doc.data.title }}</a> <span class="meta">{{ doc.data.type }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

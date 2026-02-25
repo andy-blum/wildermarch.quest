@@ -1,5 +1,5 @@
 ---
-title: Set up Camp
+title: Set up Camp (needs recap)
 date: 2025-11-11
 characters:
   - melandra-printemps
@@ -7,8 +7,14 @@ characters:
   - elarie
   - shadow
   - madame-helena-the-mystic
-locations: []
-npcs: []
+locations:
+  - node-camp
+  - the-reef
+npcs:
+  - chef-simon
+  - captain-embercrest
+  - smith
+  - rutherford-hootie
 creatures: []
 items: []
 storylines: []

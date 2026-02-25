@@ -1,5 +1,5 @@
 ---
-title: Mountain Climb - New sights in desert
+title: Mountain Climb (needs recap)
 date: 2026-01-23
 characters:
   - jorath-nightbloom
@@ -7,8 +7,11 @@ characters:
   - madame-helena-the-mystic
   - kouzlo
   - mulchbane
-locations: []
-npcs: []
+locations:
+  - the-desert
+npcs:
+  - grit
+  - auntie-dirtha-bonebender
 creatures: []
 items: []
 storylines: []

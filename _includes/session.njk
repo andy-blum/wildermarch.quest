@@ -65,3 +65,15 @@ layout: base.njk
   </ul>
 </section>
 {% endif %}
+
+{% set sessionDocs = collections.documents | whereField("session", page.fileSlug) %}
+{% if sessionDocs.length %}
+<section>
+  <h2>Documents</h2>
+  <ul>
+    {% for doc in sessionDocs %}
+    <li><a href="{{ doc.url }}">{{ doc.data.title }}</a> <span class="meta">{{ doc.data.type }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

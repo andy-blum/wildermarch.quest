@@ -1,5 +1,5 @@
 ---
-title: Return to the Great tree 3
+title: Return to the Great Tree 3 (needs recap)
 date: 2026-02-17
 characters:
   - quick

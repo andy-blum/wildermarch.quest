@@ -1,5 +1,5 @@
 ---
-title: Climb the Sea Cavern Wall to the north
+title: Climb the Sea Cavern Wall (needs recap)
 date: 2025-11-25
 characters:
   - aldric-vaun
@@ -7,11 +7,16 @@ characters:
   - lorvial
   - farrim-forgestorm-iv
   - kouzlo
-locations: []
+locations:
+  - northern-sea-cave
+  - the-bluff
 npcs: []
-creatures: []
+creatures:
+  - piercer
+  - roper
 items: []
-storylines: []
+storylines:
+  - cult-of-the-whispering-stars
 ---
 
 The party braved a treacherous 200-foot cliff climb filled with Piercers, a deadly Roper, and near-fatal slips, ultimately defeating the monster and reaching the summit. There they discovered a powerful psychic obelisk and glimpsed an underwater red-stone tower—evidence that the cult's influence stretches far beyond the caves below.
