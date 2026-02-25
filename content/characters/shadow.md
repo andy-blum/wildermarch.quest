@@ -7,6 +7,7 @@ background: Criminal/Spy
 titles:
   - Reef Friend
 status: active
+portrait: last-shadow.png
 ---
 
 ## Introduction

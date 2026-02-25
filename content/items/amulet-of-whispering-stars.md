@@ -4,6 +4,7 @@ type: wondrous
 rarity: rare
 owner: madame-helena-the-mystic
 origin: corrupted-cave
+image: amulet-of-whispering-stars.png
 ---
 
 A star-shaped necklace bearing eyes in each point and a larger eye in the center - the symbol of the Cult of the Whispering Stars. One of the eyes matches the psionic aberration encountered in the corrupted cave exactly.

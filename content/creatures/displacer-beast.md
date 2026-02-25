@@ -2,6 +2,7 @@
 name: Displacer Beast
 type: monstrosity
 threat: high
+image: displacer-beast.png
 ---
 
 Six-legged panthers with tentacles that shimmer and shift, projecting illusions of themselves that cause attacks to miss their true form. Their images double and reality refuses to hold still around them.

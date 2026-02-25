@@ -7,6 +7,7 @@ background: Veteran Mercenary
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/153922425
+portrait: martius-verus.jpg
 ---
 
 ## Introduction

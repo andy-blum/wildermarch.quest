@@ -8,6 +8,7 @@ titles:
   - Reef Friend
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/153801565
+portrait: lorvial.png
 ---
 
 ## Introduction

@@ -7,6 +7,7 @@ background: Scout
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/sheet-pdfs/TylerHays_153900223.pdf
+portrait: quick_cloak-whispering-stars.jpg
 ---
 
 ## Introduction

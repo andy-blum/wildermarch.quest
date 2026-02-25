@@ -5,6 +5,7 @@ class: Paladin/Warlock
 background: Entertainer
 titles: []
 status: active
+portrait: dominaar-nemonis.png
 ---
 
 ## Introduction

@@ -7,6 +7,7 @@ background: Hermit
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/153805368
+portrait: rian-rune-singer.jpg
 ---
 
 ## Introduction

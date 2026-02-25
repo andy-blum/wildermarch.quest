@@ -5,6 +5,7 @@ class: Fighter
 subclass: Eldritch Knight
 titles: []
 status: active
+portrait: sir-ancel.png
 ---
 
 ## Introduction

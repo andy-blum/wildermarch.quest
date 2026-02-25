@@ -5,6 +5,7 @@ class: Ranger
 background: Acolyte
 titles: []
 status: active
+portrait: tol-knell.jpg
 ---
 
 ## Introduction

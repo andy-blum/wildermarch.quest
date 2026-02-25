@@ -5,6 +5,7 @@ class: Rogue
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/157341912
+portrait: mulchbane.png
 ---
 
 ## Introduction

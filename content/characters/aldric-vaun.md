@@ -8,6 +8,7 @@ titles:
   - Reef Friend
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/153745552
+portrait: aldric-vaun_luminor_brine-justice.png
 ---
 
 ## Introduction

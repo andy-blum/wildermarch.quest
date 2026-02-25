@@ -7,6 +7,7 @@ background: Acolyte
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/153748705
+portrait: madam-helena.png
 ---
 
 ## Introduction

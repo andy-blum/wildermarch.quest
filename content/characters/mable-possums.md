@@ -7,6 +7,7 @@ background: Far Traveler
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/154228818
+portrait: mable-possums.png
 ---
 
 ## Introduction

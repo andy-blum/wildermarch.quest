@@ -7,6 +7,7 @@ background: Guild Merchant
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/153829475
+portrait: farrim-forgestorm.png
 ---
 
 ## Introduction

@@ -2,6 +2,7 @@
 name: Burrowing Insects
 type: monstrosity
 threat: medium
+image: ankeg.png
 ---
 
 Insectoid creatures dwelling in a tunnel network beneath the Moon Corn fields. They produce corrosive acidic goo that dissolves shoes and equipment, and have been responsible for the disappearance of cattle - including Betty and Bernice.

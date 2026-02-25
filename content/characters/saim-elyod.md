@@ -6,6 +6,7 @@ background: Outlander
 titles: []
 status: active
 dndbeyond: https://www.dndbeyond.com/characters/154491669
+portrait: saim-elyod.png
 ---
 
 ## Introduction

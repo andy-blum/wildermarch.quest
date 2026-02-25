@@ -8,6 +8,7 @@ titles: # titles or honorifics gained
   - Reef Friend
 status: active # active, retired, or dead
 dndbeyond: # optional, link to D&D Beyond character sheet
+portrait: # optional, filename in images/characters/
 ---
 
 ## Introduction

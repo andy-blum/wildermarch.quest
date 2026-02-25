@@ -7,6 +7,7 @@ titles:
   - Reef Friend
 status: active
 dndbeyond: https://www.dndbeyond.com/sheet-pdfs/andyblum_153920499.pdf
+portrait: kouzlo.png
 ---
 
 ## Introduction

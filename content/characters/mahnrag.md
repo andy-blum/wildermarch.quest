@@ -6,6 +6,7 @@ subclass: Piss & Vinegar
 background: Folk Hero
 titles: []
 status: active
+portrait: mahnrag.png
 ---
 
 ## Introduction
