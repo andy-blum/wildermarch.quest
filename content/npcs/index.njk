@@ -4,11 +4,45 @@ title: NPCs
 permalink: /npcs/
 ---
 <h1>NPCs</h1>
-<ul>
-{% for npc in collections.npcs %}
-  <li>
-    <a href="{{ npc.url }}">{{ npc.data.name }}</a>
-    ({{ npc.data.disposition }}{% if not npc.data.alive %}, Deceased{% endif %})
-  </li>
-{% endfor %}
-</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Disposition</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for npc in collections.npcs | sortBy('name') %}
+    {% if npc.data.alive %}
+    {% set npcLoc = collections.locations | find(npc.data.location) %}
+    <tr>
+      <td><a href="{{ npc.url }}">{{ npc.data.name }}</a></td>
+      <td>{% if npcLoc %}<a href="{{ npcLoc.url }}">{{ npcLoc.data.name }}</a>{% else %}—{% endif %}</td>
+      <td><span class="tag">{{ npc.data.disposition }}</span></td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Deceased</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Disposition</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for npc in collections.npcs | sortBy('name') %}
+    {% if not npc.data.alive %}
+    <tr>
+      <td><a href="{{ npc.url }}">{{ npc.data.name }}</a></td>
+      <td><span class="tag">{{ npc.data.disposition }}</span></td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>

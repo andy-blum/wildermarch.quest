@@ -4,11 +4,22 @@ title: Rumors
 permalink: /rumors/
 ---
 <h1>Rumors</h1>
-<ul>
-{% for rumor in collections.rumors %}
-  <li>
-    <a href="{{ rumor.url }}">{{ rumor.data.title }}</a>
-    ({{ rumor.data.source }}, {{ rumor.data.status }})
-  </li>
-{% endfor %}
-</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Source</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for rumor in collections.rumors | sortBy('title') %}
+    <tr>
+      <td><a href="{{ rumor.url }}">{{ rumor.data.title }}</a></td>
+      <td>{{ rumor.data.source }}</td>
+      <td><span class="tag">{{ rumor.data.status }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
