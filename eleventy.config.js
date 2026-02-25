@@ -1,6 +1,7 @@
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("images");
 
   // Content collections
   eleventyConfig.addCollection("characters", collection =>
@@ -33,6 +34,10 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addCollection("documents", collection =>
     collection.getFilteredByGlob("content/documents/*.md").sort((a, b) =>
+      new Date(b.data.date) - new Date(a.data.date)));
+
+  eleventyConfig.addCollection("artwork", collection =>
+    collection.getFilteredByGlob("content/artwork/*.md").sort((a, b) =>
       new Date(b.data.date) - new Date(a.data.date)));
 
   // Limit collection to first N items

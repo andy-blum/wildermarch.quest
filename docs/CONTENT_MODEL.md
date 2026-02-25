@@ -17,6 +17,7 @@ Player characters in the campaign.
 | titles | string[] | Titles or honorifics gained |
 | status | enum | `active`, `retired`, or `dead` |
 | dndbeyond | url | Link to D&D Beyond character sheet (optional) |
+| portrait | string | Filename in images/characters/ (optional) |
 
 **Reverse relationships:**
 - Sessions they participated in
@@ -50,6 +51,7 @@ Places in the world - dungeons, towns, wilderness areas, etc.
 | status | enum | `rumored`, `discovered`, or `explored` |
 | parent | slug | Parent location (for sub-locations) |
 | factions | slug[] | Factions with presence here |
+| image | string | Filename in images/locations/ (optional) |
 
 **Reverse relationships:**
 - Child locations (sub-locations)
@@ -69,6 +71,7 @@ Non-player characters.
 | faction | slug | Faction membership |
 | disposition | string | `friendly`, `neutral`, `hostile`, etc. |
 | alive | boolean | Whether they're still alive |
+| image | string | Filename in images/npcs/ (optional) |
 
 **Reverse relationships:**
 - Sessions they appeared in
@@ -117,6 +120,7 @@ Notable equipment, artifacts, and treasure.
 | rarity | string | `common`, `uncommon`, `rare`, `very rare`, `legendary` |
 | owner | slug | Current owner (character) |
 | origin | slug | Where it was found (location) |
+| image | string | Filename in images/items/ (optional) |
 
 ---
 
@@ -128,6 +132,7 @@ Bestiary of encountered monsters.
 | name | string | Creature name |
 | type | string | `humanoid`, `beast`, `undead`, `monstrosity`, etc. |
 | threat | string | `low`, `medium`, `high`, `deadly` |
+| image | string | Filename in images/creatures/ (optional) |
 
 **Reverse relationships:**
 - Sessions where encountered
@@ -165,6 +170,26 @@ In-world writings authored by characters.
 
 ---
 
+### Artwork
+Player-created artwork from the campaign.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| title | string | Artwork title |
+| type | enum | `character`, `scene`, `iconography`, or `video` |
+| image | string | Filename in images/gallery/ (for images) |
+| video | url | Embed URL for YouTube/Vimeo (for video type) |
+| artist | string | Creator name (optional) |
+| artistLink | url | Link to artist profile/site (optional) |
+| description | string | Brief description |
+| relatedTo | slug[] | Related content (characters, sessions, factions, etc.) |
+| date | date | When created |
+
+**Reverse relationships:**
+- None currently
+
+---
+
 ## Slug References
 
 Content is linked by **slug** - the filename without the `.md` extension.
@@ -191,6 +216,20 @@ content/
   items/*.md
   creatures/*.md
   storylines/*.md
+  documents/*.md
+  artwork/*.md
+```
+
+## Image Locations
+
+```
+images/
+  characters/   # Character portraits (referenced by portrait field)
+  creatures/    # Creature images (referenced by image field)
+  gallery/      # Artwork images (referenced by artwork image field)
+  items/        # Item images (referenced by image field)
+  locations/    # Location images (referenced by image field)
+  npcs/         # NPC images (referenced by image field)
 ```
 
 Each directory has a `.json` file that sets defaults (layout, tags, permalink).

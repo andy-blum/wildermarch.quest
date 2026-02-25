@@ -237,3 +237,128 @@ tbody tr:hover {
   border: 1px solid var(--color-border);
   color: var(--color-text-muted);
 }
+
+/* Character portraits */
+.character-portrait {
+  margin: 1.5rem 0;
+  max-width: 300px;
+}
+
+.character-portrait img {
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+/* Content images (creatures, npcs, locations) */
+.content-image {
+  margin: 1.5rem 0;
+  max-width: 400px;
+}
+
+.content-image img {
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+/* Artwork gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.artwork-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.artwork-card:hover {
+  box-shadow: var(--shadow);
+  text-decoration: none;
+}
+
+.artwork-thumbnail {
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.artwork-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artwork-thumbnail.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+}
+
+.video-icon {
+  font-size: 2rem;
+  color: var(--color-surface);
+}
+
+.artwork-card-info {
+  padding: 0.75rem;
+}
+
+.artwork-card-info h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+}
+
+/* Artwork detail page */
+.artwork-detail {
+  margin-top: 1rem;
+}
+
+.artwork-image {
+  margin: 1rem 0;
+}
+
+.artwork-image img {
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.artwork-meta {
+  margin-bottom: 1rem;
+}
+
+.artwork-meta p {
+  margin-bottom: 0.25rem;
+}
+
+/* Video embeds */
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

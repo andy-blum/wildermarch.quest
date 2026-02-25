@@ -1,0 +1,59 @@
+---
+layout: base.njk
+---
+<h1>{{ title }}</h1>
+
+<div class="artwork-detail">
+  {% if type == "video" and video %}
+  <div class="video-embed">
+    {% if "youtube.com" in video or "youtu.be" in video %}
+    <iframe src="{{ video | replace("watch?v=", "embed/") | replace("youtu.be/", "youtube.com/embed/") }}" frameborder="0" allowfullscreen></iframe>
+    {% elif "vimeo.com" in video %}
+    <iframe src="{{ video | replace("vimeo.com/", "player.vimeo.com/video/") }}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+  </div>
+  {% elif image %}
+  <figure class="artwork-image">
+    <img src="/images/gallery/{{ image }}" alt="{{ title }}">
+  </figure>
+  {% endif %}
+
+  <div class="artwork-meta">
+    <p><span class="tag">{{ type }}</span></p>
+    {% if artist %}
+    <p class="meta">
+      By {% if artistLink %}<a href="{{ artistLink }}">{{ artist }}</a>{% else %}{{ artist }}{% endif %}
+    </p>
+    {% endif %}
+    <p class="meta">{{ date | dateDisplay }}</p>
+  </div>
+
+  {% if description %}
+  <p>{{ description }}</p>
+  {% endif %}
+
+  {{ content | safe }}
+
+  {% if relatedTo and relatedTo.length %}
+  <section>
+    <h2>Related</h2>
+    <ul>
+      {% for slug in relatedTo %}
+        {% set char = collections.characters | find(slug) %}
+        {% set session = collections.sessions | find(slug) %}
+        {% set faction = collections.factions | find(slug) %}
+        {% set npc = collections.npcs | find(slug) %}
+        {% if char %}
+        <li><a href="{{ char.url }}">{{ char.data.name }}</a> <span class="meta">character</span></li>
+        {% elif session %}
+        <li><a href="{{ session.url }}">{{ session.data.title }}</a> <span class="meta">session</span></li>
+        {% elif faction %}
+        <li><a href="{{ faction.url }}">{{ faction.data.name }}</a> <span class="meta">faction</span></li>
+        {% elif npc %}
+        <li><a href="{{ npc.url }}">{{ npc.data.name }}</a> <span class="meta">npc</span></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</div>

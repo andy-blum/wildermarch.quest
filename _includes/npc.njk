@@ -4,6 +4,12 @@ layout: base.njk
 <h1>{{ name }}</h1>
 <p>{{ disposition }}{% if not alive %} | Deceased{% endif %}</p>
 
+{% if image %}
+<figure class="content-image">
+  <img src="/images/npcs/{{ image }}" alt="{{ name }}">
+</figure>
+{% endif %}
+
 {{ content | safe }}
 
 {% if location %}

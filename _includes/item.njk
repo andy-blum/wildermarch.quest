@@ -4,6 +4,12 @@ layout: base.njk
 <h1>{{ name }}</h1>
 <p>{{ type }} | {{ rarity }}</p>
 
+{% if image %}
+<figure class="content-image">
+  <img src="/images/items/{{ image }}" alt="{{ name }}">
+</figure>
+{% endif %}
+
 {{ content | safe }}
 
 {% if owner %}

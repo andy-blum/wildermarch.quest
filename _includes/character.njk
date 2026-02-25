@@ -4,6 +4,12 @@ layout: base.njk
 <h1>{{ name }}</h1>
 <p>{{ race }} {{ class }}{% if subclass %} ({{ subclass }}){% endif %} <span class="tag">{{ status }}</span></p>
 
+{% if portrait %}
+<figure class="character-portrait">
+  <img src="/images/characters/{{ portrait }}" alt="Portrait of {{ name }}">
+</figure>
+{% endif %}
+
 {{ content | safe }}
 
 {% set charSessions = collections.sessions | mentionedIn("characters", page.fileSlug) %}

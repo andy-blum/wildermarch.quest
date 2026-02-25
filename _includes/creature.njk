@@ -4,6 +4,12 @@ layout: base.njk
 <h1>{{ name }}</h1>
 <p>{{ type }} | {{ threat }} threat</p>
 
+{% if image %}
+<figure class="content-image">
+  <img src="/images/creatures/{{ image }}" alt="{{ name }}">
+</figure>
+{% endif %}
+
 {{ content | safe }}
 
 {% set creatureSessions = collections.sessions | mentionedIn("creatures", page.fileSlug) %}
