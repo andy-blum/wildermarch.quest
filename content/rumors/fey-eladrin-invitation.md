@@ -1,7 +1,7 @@
 ---
 title: Fey Eladrin Invitation
 source: Chweech and Chwong (Session 09)
-status: open
+status: completed
 locations:
   - great-tree
 npcs:
@@ -14,8 +14,8 @@ factions:
   - guardians-of-the-great-tree
 ---
 
-After the party's efforts to heal the Great Tree, the Fey Eladrin extended a formal invitation:
+The party answered the Fey Eladrin's invitation and returned to the Great Tree, finding it healthier than ever - deep gold etchings tracing its bark, leaves shimmering with radiant hue.
 
-> The Fey Eladrin have formally invited the party back—to offer further reward to them and to N.O.D.E.
+Autumn Laurel revealed the existence of two additional anchor points (the Great Pine and Great Mushroom) and showed the party how to view them through the scrying pool. He gave a lock of his golden hair to Thalen.
 
-The Tree still stands, but the portal between realms remains unstable. The Eladrin may have more knowledge about the Shadowfell threat and ways to fully restore the connection.
+The party then entered the Feywild but was violently expelled near the Great Mushroom when Trogeth's journal interfered. They currently battle pixies and Displacer Beasts in the fey realm.

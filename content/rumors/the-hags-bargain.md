@@ -9,6 +9,10 @@ npcs:
   - auntie-dirtha-bonebender
 ---
 
-The wind-riding hermit Grit is bound by a dark bargain with the hag Auntie Dirtha Bonebender. The nature of this bargain and what Grit owes her remain unclear.
+The wind-riding hermit Grit is bound by a dark bargain with the hag Auntie Dirtha Bonebender. When the hag arrived to collect her cauldron - seven feet tall, hunched, carried on swirling dust - she muttered only "tick tock" before vanishing on the wind.
 
-Hags are known for their cruelty and cunning. Auntie Dirtha's influence in the desert region may pose a future threat—or she may have knowledge worth bargaining for.
+Helena's magic cracked through Grit's mental barriers, revealing fragments: a bargain, raw magic, and the sense that Grit's time is running out. The connection was violently severed, and Helena briefly forgot her companions entirely - seeing only the hag pointing at her from the desert below.
+
+Grit struggles to answer questions about the bargain, as if something prevents him from speaking.
+
+**Warning:** The hag has taken notice of Madam Helena specifically.

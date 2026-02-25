@@ -4,24 +4,34 @@ status: active
 factions:
   - guardians-of-the-great-tree
   - shadar-kai
+  - fey-courts
 locations:
   - great-tree
   - corrupted-cave
+  - great-pine
+  - great-mushroom
 ---
 
-The Great Tree exists across three realms—the Material Plane, the Feywild, and the Shadowfell—and the barrier between planes is failing. Direct contact between the Feywild and Shadowfell should be impossible, with the Material Plane serving as the buffer between them.
+The Great Tree exists across three realms - the Material Plane, the Feywild, and the Shadowfell - and the barrier between planes was failing. Direct contact between the Feywild and Shadowfell should be impossible, with the Material Plane serving as the buffer between them.
 
-**What is known:**
-- Necromancers operated in the Shadowfell beneath the Tree, channeling soul-energy through green crystals
-- The corruption was engineered, not natural
-- An undead ice dragon of terrible power lurks in the depths
-- The Fey Eladrin guardians (Autumn Laurel, Solstice Briar, Sun Shade) have offered further reward if the connection is restored
-- The Shadar-kai spirit Trogeth, bound in a necromancer's journal, spoke of other failed Shadowfell portals
+**The Anchor Network:**
+The Great Tree is not the only anchor point. Two others exist:
+- The Great Pine (northern mountains) - unexplored, Trogeth's journal mentions a failed attempt
+- The Great Mushroom (western swamplands) - unexplored, Trogeth's journal mentions a failed attempt
 
-**Progress:**
-- The poisoned river has been cleansed
-- The party destroyed necromantic crystals and fought off the initial incursion
-- Golden light spreads through the Tree's roots where healing has taken hold
-- The portal remains unstable but the immediate threat is ended
+All three are attunable and connected through the Feywild.
 
-Something ancient has noticed the Tree's defense.
+**Current Status:**
+- The Great Tree's portal now glows with Feywild light rather than bleeding Shadow
+- The Tree bustles with new life: settlers, a centaur, a fairy dragon
+- Golden etchings trace the bark, leaves shimmer with radiant hue
+- The chwingas embrace as healing spreads through the roots
+
+**Remaining Threats:**
+- An undead ice dragon of terrible power lurks in the Shadowfell beneath the Tree
+- Something ancient has noticed the resistance to its influence
+- Trogeth's journal interferes with planar transit and seeks to "thin the veil further"
+- Fey Court politics (Titania vs Queen Mab) create underlying tension
+
+**Feywild Expedition:**
+The party has entered the Feywild but was violently expelled near the Great Mushroom after Trogeth's journal interfered with transit. They battled pixies and Displacer Beasts in the vibrant fields. The exploration continues.
