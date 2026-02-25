@@ -1,5 +1,5 @@
 ---
-name: Quick
+name: Thalen "Quick" Quickburrow
 race: Harengon
 class: Rogue/Ranger
 subclass: Gloom Stalker

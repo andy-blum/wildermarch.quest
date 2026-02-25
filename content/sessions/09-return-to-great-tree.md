@@ -2,7 +2,7 @@
 title: Return to the Great tree
 date: 2026-01-07
 characters:
-  - thalen
+  - quick
   - kouzlo
   - aldric-vaun
   - shadow
