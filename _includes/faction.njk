@@ -1,0 +1,67 @@
+---
+layout: base.njk
+---
+<h1>{{ name }}</h1>
+<p>{{ disposition }}</p>
+
+{{ content | safe }}
+
+{% if headquarters %}
+{% set hq = collections.locations | find(headquarters) %}
+{% if hq %}
+<section>
+  <h2>Headquarters</h2>
+  <ul>
+    <li><a href="{{ hq.url }}">{{ hq.data.name }}</a></li>
+  </ul>
+</section>
+{% endif %}
+{% endif %}
+
+{% set factionNpcs = collections.npcs | whereField("faction", page.fileSlug) %}
+{% if factionNpcs.length %}
+<section>
+  <h2>Members</h2>
+  <ul>
+    {% for npc in factionNpcs %}
+    <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set factionLocs = collections.locations | mentionedIn("factions", page.fileSlug) %}
+{% if factionLocs.length %}
+<section>
+  <h2>Locations</h2>
+  <ul>
+    {% for loc in factionLocs %}
+    <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set factionStorylines = collections.storylines | mentionedIn("factions", page.fileSlug) %}
+{% if factionStorylines.length %}
+<section>
+  <h2>Storylines</h2>
+  <ul>
+    {% for storyline in factionStorylines %}
+    <li><a href="{{ storyline.url }}">{{ storyline.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set factionRumors = collections.rumors | mentionedIn("factions", page.fileSlug) %}
+{% if factionRumors.length %}
+<section>
+  <h2>Rumors</h2>
+  <ul>
+    {% for rumor in factionRumors %}
+    <li><a href="{{ rumor.url }}">{{ rumor.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

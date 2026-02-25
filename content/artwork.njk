@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: Artwork
+permalink: /artwork/
+---
+<h1>Artwork</h1>
+
+<p>Player-created artwork from the campaign.</p>
+
+{% if collections.artwork.length %}
+<div class="gallery-grid">
+  {% for piece in collections.artwork %}
+  <a href="{{ piece.url }}" class="artwork-card">
+    {% if piece.data.type == "video" %}
+    <div class="artwork-thumbnail video-thumbnail">
+      <span class="video-icon">&#9658;</span>
+    </div>
+    {% elif piece.data.image %}
+    <div class="artwork-thumbnail">
+      <img src="/images/gallery/{{ piece.data.image }}" alt="{{ piece.data.title }}">
+    </div>
+    {% else %}
+    <div class="artwork-thumbnail placeholder"></div>
+    {% endif %}
+    <div class="artwork-card-info">
+      <h3>{{ piece.data.title }}</h3>
+      <span class="tag">{{ piece.data.type }}</span>
+      {% if piece.data.artist %}
+      <span class="meta">by {{ piece.data.artist }}</span>
+      {% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p class="meta">No artwork yet.</p>
+{% endif %}

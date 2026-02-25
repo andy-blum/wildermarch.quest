@@ -1,0 +1,43 @@
+---
+layout: base.njk
+---
+<h1>{{ title }}</h1>
+<p>{{ source }} | {{ status }}</p>
+
+{{ content | safe }}
+
+{% set rumorLocs = collections.locations | findAll(locations) %}
+{% if rumorLocs.length %}
+<section>
+  <h2>Locations</h2>
+  <ul>
+    {% for loc in rumorLocs %}
+    <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set rumorNpcs = collections.npcs | findAll(npcs) %}
+{% if rumorNpcs.length %}
+<section>
+  <h2>NPCs</h2>
+  <ul>
+    {% for npc in rumorNpcs %}
+    <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set rumorFactions = collections.factions | findAll(factions) %}
+{% if rumorFactions.length %}
+<section>
+  <h2>Factions</h2>
+  <ul>
+    {% for faction in rumorFactions %}
+    <li><a href="{{ faction.url }}">{{ faction.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

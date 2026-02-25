@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: Creatures
+permalink: /creatures/
+---
+<h1>Creatures</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Threat</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for creature in collections.creatures | sortBy('name') %}
+    <tr>
+      <td class="table-thumb">{% if creature.data.image %}<img src="/images/creatures/{{ creature.data.image }}" alt="">{% endif %}</td>
+      <td><a href="{{ creature.url }}">{{ creature.data.name }}</a></td>
+      <td>{{ creature.data.type }}</td>
+      <td><span class="tag">{{ creature.data.threat }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

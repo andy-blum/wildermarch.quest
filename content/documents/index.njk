@@ -1,0 +1,28 @@
+---
+layout: base.njk
+title: Documents
+permalink: /documents/
+---
+<h1>Documents</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Type</th>
+      <th>Author</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for doc in collections.documents | sortBy('title') %}
+    {% set docAuthor = collections.characters | find(doc.data.author) %}
+    <tr>
+      <td><a href="{{ doc.url }}">{{ doc.data.title }}</a></td>
+      <td>{{ doc.data.type }}</td>
+      <td>{% if docAuthor %}<a href="{{ docAuthor.url }}">{{ docAuthor.data.name }}</a>{% else %}—{% endif %}</td>
+      <td>{{ doc.data.date | dateDisplay }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

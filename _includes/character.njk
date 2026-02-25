@@ -1,0 +1,49 @@
+---
+layout: base.njk
+---
+<h1>{{ name }}</h1>
+<p>{{ race }} {{ class }}{% if subclass %} ({{ subclass }}){% endif %} <span class="tag">{{ status }}</span></p>
+
+{% if portrait %}
+<figure class="character-portrait">
+  <img src="/images/characters/{{ portrait }}" alt="Portrait of {{ name }}">
+</figure>
+{% endif %}
+
+{{ content | safe }}
+
+{% set charSessions = collections.sessions | mentionedIn("characters", page.fileSlug) %}
+{% if charSessions.length %}
+<section>
+  <h2>Sessions</h2>
+  <ul>
+    {% for session in charSessions %}
+    <li><a href="{{ session.url }}">{{ session.data.title }}</a> <span class="meta">{{ session.data.date | dateDisplay }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set charItems = collections.items | whereField("owner", page.fileSlug) %}
+{% if charItems.length %}
+<section>
+  <h2>Items</h2>
+  <ul>
+    {% for item in charItems %}
+    <li><a href="{{ item.url }}">{{ item.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set charDocs = collections.documents | whereField("author", page.fileSlug) %}
+{% if charDocs.length %}
+<section>
+  <h2>Documents</h2>
+  <ul>
+    {% for doc in charDocs %}
+    <li><a href="{{ doc.url }}">{{ doc.data.title }}</a> <span class="meta">{{ doc.data.type }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

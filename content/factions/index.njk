@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: Factions
+permalink: /factions/
+---
+<h1>Factions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Disposition</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for faction in collections.factions | sortBy('name') %}
+    <tr>
+      <td><a href="{{ faction.url }}">{{ faction.data.name }}</a></td>
+      <td><span class="tag">{{ faction.data.disposition }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

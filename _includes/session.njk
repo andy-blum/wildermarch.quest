@@ -1,0 +1,79 @@
+---
+layout: base.njk
+---
+<h1>{{ title }}</h1>
+<p>{{ date }}</p>
+
+{{ content | safe }}
+
+{% set sessionChars = collections.characters | findAll(characters) %}
+{% if sessionChars.length %}
+<section>
+  <h2>Characters</h2>
+  <ul>
+    {% for char in sessionChars %}
+    <li><a href="{{ char.url }}">{{ char.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set sessionLocs = collections.locations | findAll(locations) %}
+{% if sessionLocs.length %}
+<section>
+  <h2>Locations</h2>
+  <ul>
+    {% for loc in sessionLocs %}
+    <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set sessionNpcs = collections.npcs | findAll(npcs) %}
+{% if sessionNpcs.length %}
+<section>
+  <h2>NPCs</h2>
+  <ul>
+    {% for npc in sessionNpcs %}
+    <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set sessionCreatures = collections.creatures | findAll(creatures) %}
+{% if sessionCreatures.length %}
+<section>
+  <h2>Creatures</h2>
+  <ul>
+    {% for creature in sessionCreatures %}
+    <li><a href="{{ creature.url }}">{{ creature.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set sessionStorylines = collections.storylines | findAll(storylines) %}
+{% if sessionStorylines.length %}
+<section>
+  <h2>Storylines</h2>
+  <ul>
+    {% for storyline in sessionStorylines %}
+    <li><a href="{{ storyline.url }}">{{ storyline.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% set sessionDocs = collections.documents | whereField("session", page.fileSlug) %}
+{% if sessionDocs.length %}
+<section>
+  <h2>Documents</h2>
+  <ul>
+    {% for doc in sessionDocs %}
+    <li><a href="{{ doc.url }}">{{ doc.data.title }}</a> <span class="meta">{{ doc.data.type }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

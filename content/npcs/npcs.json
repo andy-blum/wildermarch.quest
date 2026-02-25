@@ -1,0 +1,5 @@
+{
+  "layout": "npc.njk",
+  "tags": "npcs",
+  "permalink": "/npcs/{{ page.fileSlug }}/"
+}

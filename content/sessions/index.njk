@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: Sessions
+permalink: /sessions/
+---
+<h1>Sessions</h1>
+
+<ol class="session-list">
+{% for session in collections.sessions | reverse %}
+  <li>
+    <a href="{{ session.url }}">{{ session.data.title }}</a>
+    <span class="meta">{{ session.data.date | dateDisplay }}</span>
+  </li>
+{% endfor %}
+</ol>

@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: Locations
+permalink: /locations/
+---
+<h1>Locations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for loc in collections.locations | sortBy('name') %}
+    <tr>
+      <td class="table-thumb">{% if loc.data.image %}<img src="/images/locations/{{ loc.data.image }}" alt="">{% endif %}</td>
+      <td><a href="{{ loc.url }}">{{ loc.data.name }}</a></td>
+      <td>{{ loc.data.type }}</td>
+      <td><span class="tag">{{ loc.data.status }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

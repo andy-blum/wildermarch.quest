@@ -1,0 +1,37 @@
+---
+layout: base.njk
+---
+<h1>{{ name }}</h1>
+<p>{{ type }} | {{ rarity }}</p>
+
+{% if image %}
+<figure class="content-image">
+  <img src="/images/items/{{ image }}" alt="{{ name }}">
+</figure>
+{% endif %}
+
+{{ content | safe }}
+
+{% if owner %}
+{% set itemOwner = collections.characters | find(owner) %}
+{% if itemOwner %}
+<section>
+  <h2>Owner</h2>
+  <ul>
+    <li><a href="{{ itemOwner.url }}">{{ itemOwner.data.name }}</a></li>
+  </ul>
+</section>
+{% endif %}
+{% endif %}
+
+{% if origin %}
+{% set itemOrigin = collections.locations | find(origin) %}
+{% if itemOrigin %}
+<section>
+  <h2>Origin</h2>
+  <ul>
+    <li><a href="{{ itemOrigin.url }}">{{ itemOrigin.data.name }}</a></li>
+  </ul>
+</section>
+{% endif %}
+{% endif %}

@@ -1,0 +1,48 @@
+---
+layout: base.njk
+title: Rumors
+permalink: /rumors/
+---
+<h1>Rumors</h1>
+
+<h2>Open</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for rumor in collections.rumors | sortBy('title') %}
+    {% if rumor.data.status == 'open' %}
+    <tr>
+      <td><a href="{{ rumor.url }}">{{ rumor.data.title }}</a></td>
+      <td>{{ rumor.data.source }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Completed & Failed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Source</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for rumor in collections.rumors | sortBy('title') %}
+    {% if rumor.data.status == 'completed' or rumor.data.status == 'failed' %}
+    <tr>
+      <td><a href="{{ rumor.url }}">{{ rumor.data.title }}</a></td>
+      <td>{{ rumor.data.source }}</td>
+      <td><span class="tag">{{ rumor.data.status }}</span></td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>

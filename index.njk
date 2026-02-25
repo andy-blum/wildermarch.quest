@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: Home
+permalink: /
+---
+<h1>West of Wonder</h1>
+<p>A West Marches campaign tracker.</p>
+
+<h2>Recent Sessions</h2>
+{% for session in collections.sessions | head(5) %}
+<article class="session-card">
+  <h3><a href="{{ session.url }}">{{ session.data.title }}</a></h3>
+  <p class="meta">{{ session.data.date | dateDisplay }}</p>
+  {% if session.content | trim %}
+  <p>{{ session.content | striptags | truncate(200) }}</p>
+  {% endif %}
+</article>
+{% endfor %}
+
+<h2>Open Rumors</h2>
+<ul>
+{% for rumor in collections.rumors %}
+  {% if rumor.data.status == "open" %}
+  <li><a href="{{ rumor.url }}">{{ rumor.data.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>

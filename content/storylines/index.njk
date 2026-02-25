@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: Storylines
+permalink: /storylines/
+---
+<h1>Storylines</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for storyline in collections.storylines | sortBy('name') %}
+    <tr>
+      <td><a href="{{ storyline.url }}">{{ storyline.data.name }}</a></td>
+      <td><span class="tag">{{ storyline.data.status }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

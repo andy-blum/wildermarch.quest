@@ -1,0 +1,5 @@
+{
+  "layout": "faction.njk",
+  "tags": "factions",
+  "permalink": "/factions/{{ page.fileSlug }}/"
+}
