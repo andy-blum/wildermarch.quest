@@ -1,0 +1,10 @@
+---
+permalink: /factions.txt
+eleventyExcludeFromCollections: true
+---
+# Factions
+
+{% for faction in collections.factions | sortBy("name") %}
+- {{ faction.data.name }}
+  /factions/{{ faction.fileSlug }}.txt
+{% endfor %}

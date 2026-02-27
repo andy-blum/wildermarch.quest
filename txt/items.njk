@@ -1,0 +1,10 @@
+---
+permalink: /items.txt
+eleventyExcludeFromCollections: true
+---
+# Items
+
+{% for item in collections.items | sortBy("name") %}
+- {{ item.data.name }}{% if item.data.type %} ({{ item.data.type }}){% endif %}
+  /items/{{ item.fileSlug }}.txt
+{% endfor %}

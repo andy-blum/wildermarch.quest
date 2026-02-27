@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections.factions
+  size: 1
+  alias: faction
+permalink: /factions/{{ faction.fileSlug }}.txt
+eleventyExcludeFromCollections: true
+---
+# {{ faction.data.name }}
+
+{{ faction | rawMarkdown }}

@@ -1,0 +1,15 @@
+---
+pagination:
+  data: collections.characters
+  size: 1
+  alias: char
+permalink: /characters/{{ char.fileSlug }}.txt
+eleventyExcludeFromCollections: true
+---
+# {{ char.data.name }}
+
+{{ char.data.race }} {{ char.data.class }}{% if char.data.subclass %} ({{ char.data.subclass }}){% endif %}
+
+Status: {{ char.data.status }}
+
+{{ char | rawMarkdown }}

@@ -1,0 +1,10 @@
+---
+permalink: /sessions.txt
+eleventyExcludeFromCollections: true
+---
+# Sessions
+
+{% for session in collections.sessions | reverse %}
+- {{ session.data.title }} ({{ session.data.date | dateDisplay }})
+  /sessions/{{ session.fileSlug }}.txt
+{% endfor %}

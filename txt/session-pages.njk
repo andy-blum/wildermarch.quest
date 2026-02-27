@@ -1,0 +1,16 @@
+---
+pagination:
+  data: collections.sessions
+  size: 1
+  alias: session
+permalink: /sessions/{{ session.fileSlug }}.txt
+eleventyExcludeFromCollections: true
+---
+# {{ session.data.title }}
+
+Date: {{ session.data.date | dateDisplay }}
+{% if session.data.characters %}Characters: {{ session.data.characters | join(", ") }}{% endif %}
+{% if session.data.locations %}Locations: {{ session.data.locations | join(", ") }}{% endif %}
+{% if session.data.npcs %}NPCs: {{ session.data.npcs | join(", ") }}{% endif %}
+
+{{ session | rawMarkdown }}

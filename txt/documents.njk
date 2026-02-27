@@ -1,0 +1,10 @@
+---
+permalink: /documents.txt
+eleventyExcludeFromCollections: true
+---
+# Documents
+
+{% for doc in collections.documents %}
+- {{ doc.data.title }}{% if doc.data.type %} ({{ doc.data.type }}){% endif %}
+  /documents/{{ doc.fileSlug }}.txt
+{% endfor %}

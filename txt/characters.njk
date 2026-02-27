@@ -1,0 +1,10 @@
+---
+permalink: /characters.txt
+eleventyExcludeFromCollections: true
+---
+# Characters
+
+{% for char in collections.characters | sortBy("name") %}
+- {{ char.data.name }} ({{ char.data.race }} {{ char.data.class }}) [{{ char.data.status }}]
+  /characters/{{ char.fileSlug }}.txt
+{% endfor %}

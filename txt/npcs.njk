@@ -1,0 +1,10 @@
+---
+permalink: /npcs.txt
+eleventyExcludeFromCollections: true
+---
+# NPCs
+
+{% for npc in collections.npcs | sortBy("name") %}
+- {{ npc.data.name }}{% if npc.data.role %} ({{ npc.data.role }}){% endif %}
+  /npcs/{{ npc.fileSlug }}.txt
+{% endfor %}

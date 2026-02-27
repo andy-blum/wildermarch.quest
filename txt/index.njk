@@ -1,0 +1,33 @@
+---
+permalink: /index.txt
+eleventyExcludeFromCollections: true
+---
+# West of Wonder
+
+A West Marches D&D campaign tracker.
+
+## Content
+
+- /sessions.txt - Game session logs
+- /characters.txt - Player characters
+- /locations.txt - Places in the world
+- /npcs.txt - Non-player characters
+- /factions.txt - Organizations and groups
+- /rumors.txt - Quest hooks and leads
+- /items.txt - Notable equipment and artifacts
+- /creatures.txt - Bestiary
+- /storylines.txt - Ongoing plot arcs
+- /documents.txt - In-world writings
+- /artwork.txt - Character and scene illustrations
+
+## Recent Sessions
+
+{% for session in collections.sessions | head(5) %}
+- {{ session.data.title }} ({{ session.data.date | dateDisplay }})
+{% endfor %}
+
+## Open Rumors
+
+{% for rumor in collections.rumors %}{% if rumor.data.status == "open" %}
+- {{ (rumor.data.title or rumor.data.name) }}
+{% endif %}{% endfor %}

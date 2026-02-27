@@ -1,0 +1,10 @@
+---
+permalink: /rumors.txt
+eleventyExcludeFromCollections: true
+---
+# Rumors
+
+{% for rumor in collections.rumors | sortBy("name") %}
+- {{ rumor.data.name }} [{{ rumor.data.status }}]
+  /rumors/{{ rumor.fileSlug }}.txt
+{% endfor %}

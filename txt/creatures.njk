@@ -1,0 +1,10 @@
+---
+permalink: /creatures.txt
+eleventyExcludeFromCollections: true
+---
+# Creatures
+
+{% for creature in collections.creatures | sortBy("name") %}
+- {{ creature.data.name }}{% if creature.data.type %} ({{ creature.data.type }}){% endif %}
+  /creatures/{{ creature.fileSlug }}.txt
+{% endfor %}
