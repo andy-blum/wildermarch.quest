@@ -51,4 +51,4 @@ Whatever it is, it keeps him moving.
 
 ## What We've Learned
 
-*(No additional details from sessions yet)*
+His aberrant tattoo - the mark of betrayal burned into his skin by the syndicate - flared during combat in the bugkin tunnels, hardening his defenses instinctively.

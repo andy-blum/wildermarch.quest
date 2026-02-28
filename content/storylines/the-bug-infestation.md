@@ -4,18 +4,23 @@ status: active
 locations:
   - moon-corn-fields
   - underground-tunnels
+  - bugkin-colony
+  - underground-castle
 ---
 
-Something beneath the Moon Corn fields threatens the camp's food supply. Livestock have gone missing, corrosive green goo damages crops and equipment, and insectoid creatures inhabit tunnels under the earth.
+Something beneath the Moon Corn fields threatens both N.O.D.E. camp and the bugkin colony below. Wild insectoid creatures - Ankegs and assassin bugs - attack from the eastern tunnels, threatening to overrun the underground settlement and pour upward toward the surface.
 
 **What is known:**
-- The goo appeared shortly after aqueduct construction finished
-- Dirt mounds and strange moving shapes led to the tunnel entrance
-- A "mama" monster and smaller insectoid creatures inhabited the nest
-- Roland "Rolly" Poland, a bugkin ally, warned of more creatures deeper below
-- Jorath recovered a mysterious egg for study
+- The bugkin colony is a full civilization: vertical settlement, shops, patrols, commerce
+- Wild Ankegs and assassin bugs are distinct from civilized bugkin - beasts, not people
+- Roland Poland and Buck Carapis are bugkin allies who helped the party reach the eastern tunnels
+- Something enormous lurks deeper below - Kouzlo saw dozens of insectoid eyes before his fireball connected
+- A cult fortress sits beyond the bug tunnels, part of the wider pattern of cult activity
 
 **Progress:**
-- One nest was destroyed
-- One cow was recovered
-- The deeper tunnels remain unexplored
+- Initial nest beneath Moon Corn fields destroyed
+- One cow recovered
+- Ankeg egg chamber cleared, brood incinerated
+- Pit to deeper tunnels collapsed and sealed
+- Rear tunnel to cult fortress collapsed
+- Jorath has recovered multiple eggs for study
