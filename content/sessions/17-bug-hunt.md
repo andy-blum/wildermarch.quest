@@ -24,7 +24,7 @@ storylines:
 ---
 
 ## Recap
-The bulletin board had seen stranger notices. Gone to the bugs. Took Roland. But given everything N.O.D.E. had faced in the weeks since first making landfall in the Wildermarch — corrupted rivers, Shadowfell portals, psionic entities that spoke directly into the mind — a note about bugs felt almost quaint.
+The bulletin board had seen stranger notices. _Gone to the bugs. Took Roland_. But given everything N.O.D.E. had faced in the weeks since first making landfall in the Wildermarch — corrupted rivers, Shadowfell portals, psionic entities that spoke directly into the mind — a note about bugs felt almost quaint.
 
 One unfamiliar face had appeared in camp that morning.
 
@@ -32,15 +32,17 @@ Mahnrag — an orc of considerable mass and considerably few words — moved thr
 
 Jorath, meanwhile, had been in conversation with Roland Poland — a bugkin the party had encountered only days prior, found deep in the tunnels during the creature attack on the moon corn fields. He had come back to camp with them afterward, a guest by circumstance if not entirely by choice, and had been proving surprisingly useful ever since. Roland had answers about the tunnel systems below, and more importantly, an offer: he'd lead them back down himself.
 
-Before departing, Kouzlo and Shadow shared the messages they had received from the Feywild. Kouzlo's arrived wrapped in the Fey's characteristic courtesy — a gift of one perfect, unkindly precise answer, available at a moment of his choosing, extended in recognition of his attentiveness as a guest. The fine print was characteristically Fey: those who are granted perfect answers are seldom left entirely unclaimed. Shadow had been offered a vial of something called Grave-Favored — a sharpening of his sight near death, with the caveat that death walking close would rattle his composure in return. He poured it into the ground before the vial could dry itself. The Feywild, the message made clear, notes such things.
+Before departing, Kouzlo and Shadow shared the messages they had received from the Feywild. Kouzlo's arrived wrapped in the Fey's characteristic courtesy — a gift of _one perfect_, _unkindly precise answer_, available at a moment of his choosing, extended in recognition of his attentiveness as a guest. The fine print was characteristically Fey: _those who are granted perfect answers are seldom left entirely unclaimed_. Shadow had been offered a vial of something called _Grave-Favored_ — a sharpening of his sight near death, with the caveat that death walking close would rattle his composure in return. He poured it into the ground before the vial could dry itself. The Feywild, the message made clear, notes such things.
 
 Mahnrag produced clove cigarettes. Jorath asked for one, with the cheery ignorance of someone who doesn't read rooms well. Mahnrag stared at him for a long moment before handing one over. Kouzlo lit it with a small prestidigitated flame — which Jorath then had to actually smoke, an experience he found deeply unpleasant. Kouzlo found this funnier than he let on. The party left a note on the bulletin board so any late arrivals could find them, and descended.
 
-Roland led the way, narrating cheerfully as they went. "Great great grandfather dug this one," he announced at a wall of dirt indistinguishable from every other wall of dirt. He seemed proud. Nobody said anything.
+Roland led the way, narrating cheerfully as they went. _"Great great grandfather dug this one,"_ he announced at a wall of dirt indistinguishable from every other wall of dirt. He seemed proud. Nobody said anything.
+
 Then the tunnel opened up, and nobody said anything for a different reason.
+
 The colony sprawled before them — a full settlement carved into the cavern, buildings stacked and terraced upward along the rock walls as far as the torchlight reached. Storefronts. Foot traffic. The distant sound of commerce. It had the bones of every frontier town the party had ever passed through, transplanted underground and rebuilt by hands that had never seen the sun. Dusty. Lived-in. Improbably, unmistakably a place where people — or something like people — went about their days.
 
-Roland, used to the sight awe-inspiring site before them, led the party into a saloon.
+Roland, used to the awe-inspiring sight before them, led the party into a saloon.
 
 Kouzlo paused at the threshold of festive merriment before entering, taking stock. The colony outside ran vertical — a civilization built upward as much as outward, with patrols moving in easy circuits through the space. Nothing alert. Just present. The facade of the establishment told a subtler story: the step at the entrance cracked cleanly down the middle, the doors re-hung so many times the hinges had memory, grime worked into every surface not from age but from repeated impact. This place had been fought over. More than once, and recently.
 
@@ -64,9 +66,14 @@ What followed was brief and chaotic. Shadow lifted the instigator off the floor 
 
 A goliath beetle emerged from the back. The bartender asked it to restore order. Mahnrag planted his feet, turned to face the goliath, and simply stared. The goliath considered this, then walked around him. The bartender refilled Mahnrag's flask. Mahnrag left at his own pace, stepping out into the street as if nothing of note had occurred.
 
-Outside, a praying mantis in an outback hat called out to Roland. He was chewing the stub of a cigar, carrying daggers, wearing the particular expression of someone who finds soft-skinned visitors more trouble than they're worth. Buck Caripis. He could get them through the eastern tunnels.
+Outside, a praying mantis in an outback hat called out to Roland. He was chewing the stub of a cigar, carrying daggers, wearing the particular expression of someone who finds _soft-skinned_ visitors more trouble than they're worth. Buck Caripis. He could get them through the eastern tunnels.
 
-Wherrin turned to Shadow with a series of sincere questions — Is it always like this? This is the first other civilization we've encountered down here. Have you actually decided to help them? Shadow's answer was reasonable: a bar brawl doesn't make enemies. You can fight a brother.
+Wherrin turned to Shadow with a series of sincere questions:
+* _Is it always like this?_
+* _This is the first other civilization we've encountered down here?_
+* _have you actually decided to help them?_
+
+Shadow's answer was reasonable: a bar brawl doesn't make enemies. You can fight a brother.
 
 Buck described the enemy bugs: small, flight-capable, producing acidic secretions, showing no signs of intelligence or language. Nothing that talked. Nothing that negotiated. Then Roland and Buck launched into a loud, convincing argument with each other — a performance for the guards posted at the tunnel entrance. Shadow announced, with complete conviction, that Buck was about to murder Roland. One guard abandoned his post to intervene. Wherrin quietly cast Suggestion on the second. Behind them, as the party slipped through the door, Buck and Roland would remain to manage the aftermath. Jorath noted, not without sympathy, that Buck was probably headed for jail.
 
