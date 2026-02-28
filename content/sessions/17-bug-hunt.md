@@ -48,7 +48,7 @@ Kouzlo paused at the threshold of festive merriment before entering, taking stoc
 
 Mahnrag did not pause. He went straight to the bar, located the bartender — who bore a passing resemblance to a mosquito — and demanded his flask be filled. An amber liquid arrived, thick as honey, that burned without sweetness. Mahnrag drank without hesitation. He had effectively removed himself from the group's social obligations before they'd even found seats.
 
-Kouzlo took a chair at Roland's table with clear sightlines to the bar - his distate for Mahnrag's first barely concealed. Shadow was pulled in two directions — Jorath was already distracted by the neighboring card game — and chose the table, keeping half his attention on Mahnrag and half on whatever Jorath was about to do.
+Kouzlo took a chair at Roland's table with clear sightlines to the bar - his distate for Mahnrag's first impression barely concealed. Shadow was pulled in two directions — Jorath was already distracted by the neighboring card game — and chose the table, keeping half his attention on Mahnrag and half on whatever Jorath was about to do.
 
 Jorath sat with Roland for approximately thirty seconds before migrating to the card game.
 
@@ -66,18 +66,15 @@ What followed was brief and chaotic. Shadow lifted the instigator off the floor 
 
 A goliath beetle emerged from the back. The bartender asked it to restore order. Mahnrag planted his feet, turned to face the goliath, and simply stared. The goliath considered this, then walked around him. The bartender refilled Mahnrag's flask. Mahnrag left at his own pace, stepping out into the street as if nothing of note had occurred.
 
-Outside, a praying mantis in an outback hat called out to Roland. He was chewing the stub of a cigar, carrying daggers, wearing the particular expression of someone who finds _soft-skinned_ visitors more trouble than they're worth. Buck Caripis. He could get them through the eastern tunnels.
+Outside, a praying mantis in an outback hat called out to Roland. He was chewing the stub of a cigar, carrying daggers, wearing the particular expression of someone who finds _soft-skinned_ visitors more trouble than they're worth. Buck Carapis. He could get them through the eastern tunnels.
 
-Wherrin turned to Shadow with a series of sincere questions:
-* _Is it always like this?_
-* _This is the first other civilization we've encountered down here?_
-* _have you actually decided to help them?_
+Wherrin turned to Shadow with a series of sincere questions: _Is it always like this? This is the first other civilization we've encountered? we were just fighting, have you actually decided to help them?_
 
 Shadow's answer was reasonable: a bar brawl doesn't make enemies. You can fight a brother.
 
 Buck described the enemy bugs: small, flight-capable, producing acidic secretions, showing no signs of intelligence or language. Nothing that talked. Nothing that negotiated. Then Roland and Buck launched into a loud, convincing argument with each other — a performance for the guards posted at the tunnel entrance. Shadow announced, with complete conviction, that Buck was about to murder Roland. One guard abandoned his post to intervene. Wherrin quietly cast Suggestion on the second. Behind them, as the party slipped through the door, Buck and Roland would remain to manage the aftermath. Jorath noted, not without sympathy, that Buck was probably headed for jail.
 
-The eastern tunnels were different from the colony's well-worn paths. The warmth that had softened the air below gave way to something closer and heavier. Torches no longer appeared on the walls and the darkness between them grew thicker. Sound folded back on itself strangely, echoing in ways that made distance hard to judge. Jorath, as the only member of the party with previous bug experience attempted to meticulously track the wild beasts through the caves
+The eastern tunnels were different from the colony's well-worn paths. The warmth that had softened the air below gave way to something closer and heavier. Torches no longer appeared on the walls and the darkness grew thicker. Sound folded back on itself strangely, echoing in ways that made distance hard to judge. Jorath, as the only member of the party with previous bug experience attempted to meticulously track the wild beasts through the caves
 
 Mahnrag walked through like he'd been planning to use that tunnel all along. By sheer dumb luck his random choices happened to take him right along the same path Jorath was tracking
 
@@ -91,9 +88,11 @@ The wizards arrived to find a two-person brawl already underway against four sep
 
 Wherrin assessed the room and cast Minor Illusion on a cluster of eggs, conjuring the convincing appearance of fire. A nearby Ankeg rushed over and beat them to extinguish the flames — destroying the eggs in the process. Jorath called down Selune's Viper, gaining some protection and poisoning an Ankeg. Then Shadow heard it: a swarm-sound rising from a cave hole in the chamber floor, low and growing. Wherrin's alarm pinged simultaneously. Something was approaching from behind them as well, soon they'd be battling on multiple fronts.
 
-Kouzlo misty-stepped to the edge of the hole and looked down into the dark. He cast fireball into the abyss. As the fireball descended, relfections in dozens of insectoid eys shown back. The explosion connected with something enormous far below and a shriek echoed up through the rock - dust and gravel falling back down. An Ankeg seized Shadow and began dragging him toward the hole. Kouzlo hit it twice, freeing him, then sent continued his barrage. Rocks crumbled and tumbled. The hole began to close. Shadow punched his former grappler, stunned it, adding it to the falling debris on their incoming enemies.
+Kouzlo misty-stepped to the edge of the hole and looked down into the dark. He cast fireball into the abyss. As the inferno descended, reflections in dozens of insectoid eyes shown back. The explosion connected with something enormous far below and a shriek echoed up through the rock - dust and gravel falling back down. An Ankeg seized Shadow and began dragging him toward the hole. Kouzlo hit it twice, freeing him, then continued his barrage on the ascending swarm. As fireballs and chromatic orbs exploded, rock crumbled collapsed. The hole began to close. Shadow punched his former grappler, stunned it, adding it to the falling debris on their incoming enemies.
 
-Jorath, Mahnrag, and Wherrin cleared the remaining creatures in the room. Kouzlo sent his last meteors and an orb of thunder energy into the hole, shaking stones loose and sealing it entirely. Shadow killed the last Ankeg. Mahnrag faced the final assassin bug alone, tore one of its arms off, and used it to skewer the creature. Initiative ended.
+Wherrin decided this was the opportune time to alert his compatriots that he had no combat magic - he'd only be able to support the team with practical illusions and incantations. To that effect, he conjured the illusion of a solid cave wall over the entrance through which the party entered. The deep hum of beating wings approached quickly from behind them then stopped. While a swarm had arrived, it sat at what it perceived as the end of a tunnel. As quickly as the swarm arrived, it left.
+
+Jorath and Mahnrag cleared the remaining creatures in the room. Kouzlo sent his last meteors and an orb of booming thunder energy into the hole, shaking stones loose and sealing it entirely. Shadow killed the last Ankeg. Mahnrag faced the final assassin bug - with a menacing roar he took hold of one of the foe's arms and ripped it off with a gruesome crack and a terrible scream. Turning the spear-like appendage around he drove it into the hole from whence it came, a quiet settling in the space as the last of the echoes tired themselves out and lay still.
 
 Jorath pocketed one of the unhatched eggs — for study. The rest of the brood was incinerated.
 
