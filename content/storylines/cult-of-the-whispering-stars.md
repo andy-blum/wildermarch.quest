@@ -10,6 +10,7 @@ locations:
   - mountain-cavern
   - underwater-tower
   - the-bluff
+  - underground-castle
 ---
 
 A widespread cult operating throughout the Wildermarch, identifiable by their star-speckled robes and star-shaped symbols with eyes at each point. They perform rituals involving necromantic crystals that transform the dead into sea spawn and birth psionic aberrations.
@@ -26,5 +27,7 @@ A widespread cult operating throughout the Wildermarch, identifiable by their st
 - The corrupted cave ritual site was destroyed
 - The Coral Forest crystal was shattered
 - The mountain cavern crystal was destroyed, triggering a vision of a psionic empire acknowledging the party and promising "it was coming"
+- An underground castle was discovered beyond the bugkin colony tunnels, with visible cult activity
+- The party collapsed the tunnel leading to the fortress - they were not equipped for that confrontation
 
 The stars are watching. And something beneath the waves is waking.
