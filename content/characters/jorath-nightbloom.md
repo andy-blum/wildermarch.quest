@@ -21,3 +21,5 @@ Jorath brought Moon Corn seeds from the Nocturne Conservatory and suggested plan
 He wears a Cloak of Protection given to him by Coralia (worn as a sash by the sea guardian), and Aldric is building a library wing in his honor. A Leviathan tattoo marks his skin - it burned when the psionic presence passed through the water during the Coral Forest battle.
 
 During the mountain expedition, Jorath gifted his wand of fireballs to the hermit Grit as a sign of friendship, receiving a Wand of Secrets in return.
+
+He recovered another egg from an Ankeg nest for study - his collection of mysterious insectoid specimens continues to grow.

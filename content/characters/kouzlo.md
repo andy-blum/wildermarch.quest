@@ -25,3 +25,5 @@ He carries a Stone of Good Luck (a pearl recovered from the northern sea cave) a
 He identified the glowing fungus Noctiluceum and collected samples for potential underwater breathing potions. His cold logic and remarkable magical output have proven indispensable to the expedition.
 
 From Grit's collection, he received an Oil of Slipperiness.
+
+The Feywild has extended Kouzlo a gift: one perfect, unkindly precise answer, available at a moment of his choosing, in recognition of his attentiveness as a guest. The fine print is characteristically Fey - those granted perfect answers are seldom left entirely unclaimed.

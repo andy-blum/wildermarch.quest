@@ -23,3 +23,6 @@ Shadow maintains a conspiracy board in camp - strings, maps, and patterns connec
 During the battle beneath the Great Tree, Shadow encountered undead spirits that moved through shadow as naturally as he does - perhaps more so. The recognition unsettled him deeply.
 
 He bears a Ring of Scorching Flame from the mountain cavern expedition.
+
+The Feywild offered Shadow a vial of Grave-Favored - sharpened sight near death, at the cost of composure when death walks close. He poured it into the ground. The Feywild notes such refusals.
+
