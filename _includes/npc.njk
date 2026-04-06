@@ -2,39 +2,33 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ disposition }}{% if not alive %} | Deceased{% endif %}</p>
 
-{% if image %}
-<figure class="content-image">
-  <img src="/images/npcs/{{ image }}" alt="{{ name }}">
-</figure>
-{% endif %}
+<aside class="infobox">
+  <div class="infobox-header">{{ name }}</div>
+  {% if image %}
+  <div class="infobox-image">
+    <img src="/images/npcs/{{ image }}" alt="{{ name }}">
+  </div>
+  {% endif %}
+  <table>
+    <tr><th>Disposition</th><td>{{ disposition }}</td></tr>
+    <tr><th>Status</th><td>{% if alive %}Alive{% else %}Deceased{% endif %}</td></tr>
+    {% if location %}
+    {% set npcLoc = collections.locations | find(location) %}
+    {% if npcLoc %}
+    <tr><th>Location</th><td><a href="{{ npcLoc.url }}">{{ npcLoc.data.name }}</a></td></tr>
+    {% endif %}
+    {% endif %}
+    {% if faction %}
+    {% set npcFaction = collections.factions | find(faction) %}
+    {% if npcFaction %}
+    <tr><th>Faction</th><td><a href="{{ npcFaction.url }}">{{ npcFaction.data.name }}</a></td></tr>
+    {% endif %}
+    {% endif %}
+  </table>
+</aside>
 
 {{ content | safe }}
-
-{% if location %}
-{% set npcLoc = collections.locations | find(location) %}
-{% if npcLoc %}
-<section>
-  <h2>Location</h2>
-  <ul>
-    <li><a href="{{ npcLoc.url }}">{{ npcLoc.data.name }}</a></li>
-  </ul>
-</section>
-{% endif %}
-{% endif %}
-
-{% if faction %}
-{% set npcFaction = collections.factions | find(faction) %}
-{% if npcFaction %}
-<section>
-  <h2>Faction</h2>
-  <ul>
-    <li><a href="{{ npcFaction.url }}">{{ npcFaction.data.name }}</a></li>
-  </ul>
-</section>
-{% endif %}
-{% endif %}
 
 {% set npcSessions = collections.sessions | mentionedIn("npcs", page.fileSlug) %}
 {% if npcSessions.length %}

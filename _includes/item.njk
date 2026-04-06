@@ -2,36 +2,30 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ type }} | {{ rarity }}</p>
 
-{% if image %}
-<figure class="content-image">
-  <img src="/images/items/{{ image }}" alt="{{ name }}">
-</figure>
-{% endif %}
+<aside class="infobox">
+  <div class="infobox-header">{{ name }}</div>
+  {% if image %}
+  <div class="infobox-image">
+    <img src="/images/items/{{ image }}" alt="{{ name }}">
+  </div>
+  {% endif %}
+  <table>
+    <tr><th>Type</th><td>{{ type }}</td></tr>
+    <tr><th>Rarity</th><td>{{ rarity }}</td></tr>
+    {% if owner %}
+    {% set itemOwner = collections.characters | find(owner) %}
+    {% if itemOwner %}
+    <tr><th>Owner</th><td><a href="{{ itemOwner.url }}">{{ itemOwner.data.name }}</a></td></tr>
+    {% endif %}
+    {% endif %}
+    {% if origin %}
+    {% set itemOrigin = collections.locations | find(origin) %}
+    {% if itemOrigin %}
+    <tr><th>Origin</th><td><a href="{{ itemOrigin.url }}">{{ itemOrigin.data.name }}</a></td></tr>
+    {% endif %}
+    {% endif %}
+  </table>
+</aside>
 
 {{ content | safe }}
-
-{% if owner %}
-{% set itemOwner = collections.characters | find(owner) %}
-{% if itemOwner %}
-<section>
-  <h2>Owner</h2>
-  <ul>
-    <li><a href="{{ itemOwner.url }}">{{ itemOwner.data.name }}</a></li>
-  </ul>
-</section>
-{% endif %}
-{% endif %}
-
-{% if origin %}
-{% set itemOrigin = collections.locations | find(origin) %}
-{% if itemOrigin %}
-<section>
-  <h2>Origin</h2>
-  <ul>
-    <li><a href="{{ itemOrigin.url }}">{{ itemOrigin.data.name }}</a></li>
-  </ul>
-</section>
-{% endif %}
-{% endif %}
