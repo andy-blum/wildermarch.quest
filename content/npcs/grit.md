@@ -28,3 +28,6 @@ Each character also left with a sip of Grit's cactid tea, granting unpredictable
 
 **Landmarks Revealed:**
 Grit pointed out an oasis to the west, a leaning wizard's tower over a great lake, and vibrant pink swamps to the south where "good" lizardfolk dwell.
+
+**Connection to the Wizard's Tower:**
+Quick, Mel, and Helena later found Grit standing at the shore of the tower's lake, muttering words about releasing elements and drawing a map into the sand — though he couldn't explain why he was drawn there. The tower door, which has no handle or lock, only fully opened when Grit touched it. His connection to the tower remains unexplained.
