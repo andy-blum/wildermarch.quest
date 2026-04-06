@@ -1,0 +1,90 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link "NaturalCrit" [ref=e7] [cursor=pointer]:
+          - /url: https://www.naturalcrit.com
+          - img [ref=e8]
+          - generic [ref=e10]: NaturalCrit
+        - link "The Homebrewery" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e12]: The Homebrewery
+        - link "v3.20.1 " [ref=e13] [cursor=pointer]:
+          - /url: /changelog
+          - text: v3.20.1
+          - generic [ref=e14]: 
+        - link "help out " [ref=e15] [cursor=pointer]:
+          - /url: https://www.patreon.com/NaturalCrit
+          - text: help out
+          - generic [ref=e16]: 
+      - generic [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: Grammy’s Country Apple Pie
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - heading "Description" [level=4] [ref=e22]
+            - paragraph [ref=e23]: When the ancient wizard, Tyndareus of Trostenwald, develops a craving for a special treat from his childhood, he will stop at nothing to get his hands on the best apple pie in the whole world.
+          - generic [ref=e24]:
+            - heading "Authors" [level=4] [ref=e25]
+            - paragraph [ref=e26]:
+              - link "celesehc" [ref=e28]:
+                - /url: /user/celesehc
+          - generic [ref=e29]:
+            - heading "Tags" [level=4] [ref=e30]
+            - paragraph [ref=e31]:
+              - generic [ref=e32]: DnD
+              - generic [ref=e33]: 5e
+              - generic [ref=e34]: Adventure
+              - generic [ref=e35]: one-shot
+              - generic [ref=e36]: critical role
+          - generic [ref=e37]:
+            - heading "Systems" [level=4] [ref=e38]
+            - paragraph [ref=e39]: 5e
+          - generic [ref=e40]:
+            - heading "Updated" [level=4] [ref=e41]
+            - paragraph [ref=e42]: a year ago
+        - generic [ref=e43]: 
+      - generic [ref=e44]:
+        - generic [ref=e45] [cursor=pointer]:
+          - text: get PDF
+          - generic [ref=e46]: 
+        - generic [ref=e48] [cursor=pointer]:
+          - text: source
+          - generic [ref=e49]: 
+        - generic [ref=e51] [cursor=pointer]:
+          - text: recent brews
+          - generic [ref=e52]: 
+        - link "login " [ref=e53] [cursor=pointer]:
+          - /url: https://www.naturalcrit.com/login?redirect=https://homebrewery.naturalcrit.com/share/1giTEhYzISAadWMWBLumKUr3YSAxqIebraHFUs_gbxj0R
+          - text: login
+          - generic [ref=e54]: 
+    - generic [ref=e55]:
+      - generic [ref=e59]: 
+      - toolbar [ref=e60]:
+        - generic [ref=e61]:
+          - button "" [ref=e62]:
+            - generic [ref=e63]: 
+          - button "" [ref=e64]:
+            - generic [ref=e65]: 
+        - group "Zoom" [ref=e66]:
+          - button "Set zoom to fill preview with one page" [ref=e67]
+          - button "Set zoom to fit entire page in preview" [ref=e69]
+          - button "" [ref=e71]:
+            - generic [ref=e72]: 
+          - slider "Set Zoom" [ref=e73]: "100"
+          - button "" [ref=e74]:
+            - generic [ref=e75]: 
+        - group "Spread" [ref=e76]:
+          - radiogroup [ref=e77]:
+            - radio "Single Page" [checked] [ref=e78]
+            - radio "Facing Pages" [ref=e80]
+            - radio "Flow Pages" [ref=e82]
+          - button "" [ref=e84]:
+            - generic [ref=e85]: 
+        - group "Pages" [ref=e86]:
+          - button "" [disabled] [ref=e87]:
+            - generic [ref=e88]: 
+          - generic [ref=e89]:
+            - textbox "Current page(s) in view" [ref=e90]: "1"
+            - generic "Total Page Count" [ref=e91]: / 14
+          - button "" [ref=e92]:
+            - generic [ref=e93]: 

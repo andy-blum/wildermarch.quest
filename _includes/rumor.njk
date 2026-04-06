@@ -2,42 +2,40 @@
 layout: base.njk
 ---
 <h1>{{ title }}</h1>
-<p>{{ source }} | {{ status }}</p>
 
-{{ content | safe }}
-
-{% set rumorLocs = collections.locations | findAll(locations) %}
-{% if rumorLocs.length %}
-<section>
-  <h2>Locations</h2>
+<aside class="infobox">
+  <div class="infobox-header">Rumor</div>
+  <table>
+    <tr><th>Source</th><td>{{ source }}</td></tr>
+    <tr><th>Status</th><td><span class="tag">{{ status }}</span></td></tr>
+  </table>
+  {% set rumorLocs = collections.locations | findAll(locations) %}
+  {% if rumorLocs.length %}
+  <div class="infobox-section">Locations</div>
   <ul>
     {% for loc in rumorLocs %}
     <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
-
-{% set rumorNpcs = collections.npcs | findAll(npcs) %}
-{% if rumorNpcs.length %}
-<section>
-  <h2>NPCs</h2>
+  {% endif %}
+  {% set rumorNpcs = collections.npcs | findAll(npcs) %}
+  {% if rumorNpcs.length %}
+  <div class="infobox-section">NPCs</div>
   <ul>
     {% for npc in rumorNpcs %}
     <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
-
-{% set rumorFactions = collections.factions | findAll(factions) %}
-{% if rumorFactions.length %}
-<section>
-  <h2>Factions</h2>
+  {% endif %}
+  {% set rumorFactions = collections.factions | findAll(factions) %}
+  {% if rumorFactions.length %}
+  <div class="infobox-section">Factions</div>
   <ul>
     {% for faction in rumorFactions %}
     <li><a href="{{ faction.url }}">{{ faction.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
+  {% endif %}
+</aside>
+
+{{ content | safe }}

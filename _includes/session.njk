@@ -2,69 +2,60 @@
 layout: base.njk
 ---
 <h1>{{ title }}</h1>
-<p>{{ date }}</p>
 
-{{ content | safe }}
-
-{% set sessionChars = collections.characters | findAll(characters) %}
-{% if sessionChars.length %}
-<section>
-  <h2>Characters</h2>
+<aside class="infobox">
+  <div class="infobox-header">Session Info</div>
+  <table>
+    <tr><th>Date</th><td>{{ date | dateDisplay }}</td></tr>
+  </table>
+  {% set sessionChars = collections.characters | findAll(characters) %}
+  {% if sessionChars.length %}
+  <div class="infobox-section">Characters</div>
   <ul>
     {% for char in sessionChars %}
     <li><a href="{{ char.url }}">{{ char.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
-
-{% set sessionLocs = collections.locations | findAll(locations) %}
-{% if sessionLocs.length %}
-<section>
-  <h2>Locations</h2>
+  {% endif %}
+  {% set sessionLocs = collections.locations | findAll(locations) %}
+  {% if sessionLocs.length %}
+  <div class="infobox-section">Locations</div>
   <ul>
     {% for loc in sessionLocs %}
     <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
-
-{% set sessionNpcs = collections.npcs | findAll(npcs) %}
-{% if sessionNpcs.length %}
-<section>
-  <h2>NPCs</h2>
+  {% endif %}
+  {% set sessionNpcs = collections.npcs | findAll(npcs) %}
+  {% if sessionNpcs.length %}
+  <div class="infobox-section">NPCs</div>
   <ul>
     {% for npc in sessionNpcs %}
     <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
-
-{% set sessionCreatures = collections.creatures | findAll(creatures) %}
-{% if sessionCreatures.length %}
-<section>
-  <h2>Creatures</h2>
+  {% endif %}
+  {% set sessionCreatures = collections.creatures | findAll(creatures) %}
+  {% if sessionCreatures.length %}
+  <div class="infobox-section">Creatures</div>
   <ul>
     {% for creature in sessionCreatures %}
     <li><a href="{{ creature.url }}">{{ creature.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
-
-{% set sessionStorylines = collections.storylines | findAll(storylines) %}
-{% if sessionStorylines.length %}
-<section>
-  <h2>Storylines</h2>
+  {% endif %}
+  {% set sessionStorylines = collections.storylines | findAll(storylines) %}
+  {% if sessionStorylines.length %}
+  <div class="infobox-section">Storylines</div>
   <ul>
     {% for storyline in sessionStorylines %}
     <li><a href="{{ storyline.url }}">{{ storyline.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
+  {% endif %}
+</aside>
+
+{{ content | safe }}
 
 {% set sessionDocs = collections.documents | whereField("session", page.fileSlug) %}
 {% if sessionDocs.length %}

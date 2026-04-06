@@ -2,13 +2,19 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ type }} | {{ threat }} threat</p>
 
-{% if image %}
-<figure class="content-image">
-  <img src="/images/creatures/{{ image }}" alt="{{ name }}">
-</figure>
-{% endif %}
+<aside class="infobox">
+  <div class="infobox-header">{{ name }}</div>
+  {% if image %}
+  <div class="infobox-image">
+    <img src="/images/creatures/{{ image }}" alt="{{ name }}">
+  </div>
+  {% endif %}
+  <table>
+    <tr><th>Type</th><td>{{ type }}</td></tr>
+    <tr><th>Threat</th><td>{{ threat }}</td></tr>
+  </table>
+</aside>
 
 {{ content | safe }}
 

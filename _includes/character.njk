@@ -2,13 +2,32 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ race }} {{ class }}{% if subclass %} ({{ subclass }}){% endif %} <span class="tag">{{ status }}</span></p>
 
-{% if portrait %}
-<figure class="character-portrait">
-  <img src="/images/characters/{{ portrait }}" alt="Portrait of {{ name }}">
-</figure>
-{% endif %}
+<aside class="infobox">
+  <div class="infobox-header">{{ name }}</div>
+  {% if portrait %}
+  <div class="infobox-image">
+    <img src="/images/characters/{{ portrait }}" alt="Portrait of {{ name }}">
+  </div>
+  {% endif %}
+  <table>
+    <tr><th>Race</th><td>{{ race }}</td></tr>
+    <tr><th>Class</th><td>{{ class }}{% if subclass %} ({{ subclass }}){% endif %}</td></tr>
+    {% if background %}<tr><th>Background</th><td>{{ background }}</td></tr>{% endif %}
+    <tr><th>Status</th><td><span class="tag">{{ status }}</span></td></tr>
+    {% if titles %}<tr><th>Titles</th><td>{{ titles | join(", ") }}</td></tr>{% endif %}
+    {% if dndbeyond %}<tr><th>Sheet</th><td><a href="{{ dndbeyond }}">D&D Beyond</a></td></tr>{% endif %}
+  </table>
+  {% set charItems = collections.items | whereField("owner", page.fileSlug) %}
+  {% if charItems.length %}
+  <div class="infobox-section">Items</div>
+  <ul>
+    {% for item in charItems %}
+    <li><a href="{{ item.url }}">{{ item.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</aside>
 
 {{ content | safe }}
 
@@ -19,18 +38,6 @@ layout: base.njk
   <ul>
     {% for session in charSessions %}
     <li><a href="{{ session.url }}">{{ session.data.title }}</a> <span class="meta">{{ session.data.date | dateDisplay }}</span></li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% set charItems = collections.items | whereField("owner", page.fileSlug) %}
-{% if charItems.length %}
-<section>
-  <h2>Items</h2>
-  <ul>
-    {% for item in charItems %}
-    <li><a href="{{ item.url }}">{{ item.data.name }}</a></li>
     {% endfor %}
   </ul>
 </section>

@@ -2,45 +2,39 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ disposition }}</p>
 
-{{ content | safe }}
-
-{% if headquarters %}
-{% set hq = collections.locations | find(headquarters) %}
-{% if hq %}
-<section>
-  <h2>Headquarters</h2>
-  <ul>
-    <li><a href="{{ hq.url }}">{{ hq.data.name }}</a></li>
-  </ul>
-</section>
-{% endif %}
-{% endif %}
-
-{% set factionNpcs = collections.npcs | whereField("faction", page.fileSlug) %}
-{% if factionNpcs.length %}
-<section>
-  <h2>Members</h2>
+<aside class="infobox">
+  <div class="infobox-header">{{ name }}</div>
+  <table>
+    <tr><th>Disposition</th><td>{{ disposition }}</td></tr>
+    {% if headquarters %}
+    {% set hq = collections.locations | find(headquarters) %}
+    {% if hq %}
+    <tr><th>Headquarters</th><td><a href="{{ hq.url }}">{{ hq.data.name }}</a></td></tr>
+    {% endif %}
+    {% endif %}
+  </table>
+  {% set factionNpcs = collections.npcs | whereField("faction", page.fileSlug) %}
+  {% if factionNpcs.length %}
+  <div class="infobox-section">Members</div>
   <ul>
     {% for npc in factionNpcs %}
     <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
-
-{% set factionLocs = collections.locations | mentionedIn("factions", page.fileSlug) %}
-{% if factionLocs.length %}
-<section>
-  <h2>Locations</h2>
+  {% endif %}
+  {% set factionLocs = collections.locations | mentionedIn("factions", page.fileSlug) %}
+  {% if factionLocs.length %}
+  <div class="infobox-section">Locations</div>
   <ul>
     {% for loc in factionLocs %}
     <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
     {% endfor %}
   </ul>
-</section>
-{% endif %}
+  {% endif %}
+</aside>
+
+{{ content | safe }}
 
 {% set factionStorylines = collections.storylines | mentionedIn("factions", page.fileSlug) %}
 {% if factionStorylines.length %}

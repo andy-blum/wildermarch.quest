@@ -1,0 +1,13 @@
+[    1131ms] TypeError: setError is not a function
+    at https://homebrewery.naturalcrit.com/homebrew/bundle.js:129243:11
+    at https://homebrewery.naturalcrit.com/homebrew/bundle.js:91414:18
+    at Generator.<anonymous> (https://homebrewery.naturalcrit.com/homebrew/bundle.js:91228:51)
+    at Generator.next (https://homebrewery.naturalcrit.com/homebrew/bundle.js:91335:21)
+    at asyncGeneratorStep (https://homebrewery.naturalcrit.com/homebrew/bundle.js:90924:17)
+    at _next (https://homebrewery.naturalcrit.com/homebrew/bundle.js:90938:9)
+[    1384ms] [WARNING] Failed to decode downloaded font: https://homebrewery.naturalcrit.com/themes/V3/fonts/5e/Nodesto%20Caps%20Condensed.woff2 @ https://homebrewery.naturalcrit.com/share/1giTEhYzISAadWMWBLumKUr3YSAxqIebraHFUs_gbxj0R:0
+[    1384ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://homebrewery.naturalcrit.com/share/1giTEhYzISAadWMWBLumKUr3YSAxqIebraHFUs_gbxj0R:0
+[    1384ms] [WARNING] Failed to decode downloaded font: https://homebrewery.naturalcrit.com/themes/V3/fonts/5e/Nodesto%20Caps%20Condensed.woff2 @ https://homebrewery.naturalcrit.com/share/1giTEhYzISAadWMWBLumKUr3YSAxqIebraHFUs_gbxj0R:0
+[    1384ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://homebrewery.naturalcrit.com/share/1giTEhYzISAadWMWBLumKUr3YSAxqIebraHFUs_gbxj0R:0
+[    4397ms] [WARNING] Failed to decode downloaded font: https://homebrewery.naturalcrit.com/themes/V3/fonts/5e/Nodesto%20Caps%20Condensed%20Bold.woff2 @ https://homebrewery.naturalcrit.com/share/1giTEhYzISAadWMWBLumKUr3YSAxqIebraHFUs_gbxj0R:0
+[    4397ms] [WARNING] OTS parsing error: invalid sfntVersion: 1008813135 @ https://homebrewery.naturalcrit.com/share/1giTEhYzISAadWMWBLumKUr3YSAxqIebraHFUs_gbxj0R:0

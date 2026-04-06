@@ -2,27 +2,45 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ type }} | {{ status }}</p>
 
-{% if image %}
-<figure class="content-image">
-  <img src="/images/locations/{{ image }}" alt="{{ name }}">
-</figure>
-{% endif %}
+<aside class="infobox">
+  <div class="infobox-header">{{ name }}</div>
+  {% if image %}
+  <div class="infobox-image">
+    <img src="/images/locations/{{ image }}" alt="{{ name }}">
+  </div>
+  {% endif %}
+  <table>
+    <tr><th>Type</th><td>{{ type }}</td></tr>
+    <tr><th>Status</th><td><span class="tag">{{ status }}</span></td></tr>
+    {% if parent %}
+    {% set parentLoc = collections.locations | find(parent) %}
+    {% if parentLoc %}
+    <tr><th>Region</th><td><a href="{{ parentLoc.url }}">{{ parentLoc.data.name }}</a></td></tr>
+    {% endif %}
+    {% endif %}
+  </table>
+  {% set locFactions = collections.factions | findAll(factions) %}
+  {% if locFactions.length %}
+  <div class="infobox-section">Factions</div>
+  <ul>
+    {% for faction in locFactions %}
+    <li><a href="{{ faction.url }}">{{ faction.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% set locNpcs = collections.npcs | whereField("location", page.fileSlug) %}
+  {% if locNpcs.length %}
+  <div class="infobox-section">NPCs</div>
+  <ul>
+    {% for npc in locNpcs %}
+    <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</aside>
 
 {{ content | safe }}
-
-{% if parent %}
-{% set parentLoc = collections.locations | find(parent) %}
-{% if parentLoc %}
-<section>
-  <h2>Parent Location</h2>
-  <ul>
-    <li><a href="{{ parentLoc.url }}">{{ parentLoc.data.name }}</a></li>
-  </ul>
-</section>
-{% endif %}
-{% endif %}
 
 {% set childLocs = collections.locations | whereField("parent", page.fileSlug) %}
 {% if childLocs.length %}
@@ -31,30 +49,6 @@ layout: base.njk
   <ul>
     {% for loc in childLocs %}
     <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% set locFactions = collections.factions | findAll(factions) %}
-{% if locFactions.length %}
-<section>
-  <h2>Factions</h2>
-  <ul>
-    {% for faction in locFactions %}
-    <li><a href="{{ faction.url }}">{{ faction.data.name }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% set locNpcs = collections.npcs | whereField("location", page.fileSlug) %}
-{% if locNpcs.length %}
-<section>
-  <h2>NPCs</h2>
-  <ul>
-    {% for npc in locNpcs %}
-    <li><a href="{{ npc.url }}">{{ npc.data.name }}</a></li>
     {% endfor %}
   </ul>
 </section>

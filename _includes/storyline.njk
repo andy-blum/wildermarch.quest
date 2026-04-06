@@ -2,7 +2,31 @@
 layout: base.njk
 ---
 <h1>{{ name }}</h1>
-<p>{{ status }}</p>
+
+<aside class="infobox">
+  <div class="infobox-header">{{ name }}</div>
+  <table>
+    <tr><th>Status</th><td><span class="tag">{{ status }}</span></td></tr>
+  </table>
+  {% set storylineFactions = collections.factions | findAll(factions) %}
+  {% if storylineFactions.length %}
+  <div class="infobox-section">Factions</div>
+  <ul>
+    {% for faction in storylineFactions %}
+    <li><a href="{{ faction.url }}">{{ faction.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% set storylineLocs = collections.locations | findAll(locations) %}
+  {% if storylineLocs.length %}
+  <div class="infobox-section">Locations</div>
+  <ul>
+    {% for loc in storylineLocs %}
+    <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</aside>
 
 {{ content | safe }}
 
@@ -13,30 +37,6 @@ layout: base.njk
   <ul>
     {% for session in storylineSessions %}
     <li><a href="{{ session.url }}">{{ session.data.title }}</a> ({{ session.data.date }})</li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% set storylineFactions = collections.factions | findAll(factions) %}
-{% if storylineFactions.length %}
-<section>
-  <h2>Factions</h2>
-  <ul>
-    {% for faction in storylineFactions %}
-    <li><a href="{{ faction.url }}">{{ faction.data.name }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% set storylineLocs = collections.locations | findAll(locations) %}
-{% if storylineLocs.length %}
-<section>
-  <h2>Locations</h2>
-  <ul>
-    {% for loc in storylineLocs %}
-    <li><a href="{{ loc.url }}">{{ loc.data.name }}</a></li>
     {% endfor %}
   </ul>
 </section>
