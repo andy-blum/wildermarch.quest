@@ -25,4 +25,7 @@ A widespread cult operating throughout the Wildermarch, serving something vast b
 - A dwarven cultist wielded a staff capable of casting a wave of decay that both damaged enemies and healed allies
 - Cultists are capable of refining raw crystals into the polished form used at ritual sites
 
+**The Truth:**
+The cult serves an elder Aboleth — a being older than all others that witnessed creation itself. The cult's goal is *the unification*. Cultists are permanently charmed by Aboleth magic, bound so deeply that their past selves are erased. Silas, the captured cultist, could not remember his own life before the cult. The Aboleth speaks through its puppets at will, their eyes flaring red when it surfaces.
+
 The stars are watching.

@@ -35,4 +35,11 @@ A widespread cult operating throughout the Wildermarch, identifiable by their st
 - The party destroyed the swamp operation, freed the prisoners, and captured one cultist alive for interrogation
 - Bound notes were recovered from the cultist podium
 
-The stars are watching. And something beneath the waves is waking.
+**The Aboleth Revealed:**
+The captured cultist Silas — under Zone of Truth and direct probing by Helena — confirmed that the cult serves an elder Aboleth, a being "older than all" that saw "everything be made." The cult's goal is *the unification*: bringing a cosmic "purpose" to all living things. The crystals come from a fallen star from the Aboleth's home, and the cult feeds them different inputs to coax out different abilities.
+
+The cult symbol's five eyes each represent a different entity. Only the central eye is an Aboleth — the other four are something else entirely, and each represents a different catastrophic ending. The Aboleth can speak through charmed cultists, puppeting their flesh. It described the red stone tower as an *invitation* and expressed interest in recruiting the party.
+
+Multiple Aboleths exist. The fortress houses the bulk of cult forces making final preparations. The time, Silas warned, is nigh.
+
+The stars are watching. And the thing beneath the waves is awake.

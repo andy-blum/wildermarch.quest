@@ -7,16 +7,21 @@ characters:
   - aldric-vaun
   - kouzlo
   - melandra-printemps
-# locations:
-#   - location-slug
-# npcs:
-#   - npc-slug
-# creatures:
-#   - creature-slug
-# items:
-#   - item-slug
-# storylines:
-#   - storyline-slug
+locations:
+  - node-camp
+  - underground-castle
+npcs:
+  - kessara
+  - sshar
+  - silas
+  - smith
+creatures:
+  - aboleth
+items:
+  - amulet-of-whispering-stars
+storylines:
+  - cult-of-the-whispering-stars
+  - the-corrupted-sea
 ---
 
 Previously we successfully took prisoner, one cultist from the pink swamp. It's about time we asked them some questions.
