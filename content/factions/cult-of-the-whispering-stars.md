@@ -17,7 +17,12 @@ A widespread cult operating throughout the Wildermarch, serving something vast b
 - Mountain cavern (destroyed)
 - Coral Forest crystal (destroyed)
 - Underwater tower (intact, location known)
+- Underground castle beyond bugkin tunnels (intact, tunnel collapsed)
+- Pink Swamps crystal chamber (destroyed, collapsed)
 
-A letter recovered from cultists mentioned reinforcements delayed by lizardfolk attacks in a swamp, suggesting ongoing conflict with other factions and additional cult presence in unexplored areas.
+**Capabilities:**
+- At least one cultist carried a potion (vibrant purple liquid) that causes grotesque physical transformation — muscles bulging, growing stronger as damaged
+- A dwarven cultist wielded a staff capable of casting a wave of decay that both damaged enemies and healed allies
+- Cultists are capable of refining raw crystals into the polished form used at ritual sites
 
 The stars are watching.

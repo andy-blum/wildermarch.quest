@@ -7,16 +7,17 @@ characters:
   - shadow
   - aldric-vaun
   - kouzlo
-# locations:
-#   - location-slug
-# npcs:
-#   - npc-slug
-# creatures:
-#   - creature-slug
-# items:
-#   - item-slug
-# storylines:
-#   - storyline-slug
+locations:
+  - pink-swamps
+  - lizardfolk-village
+npcs:
+  - montagne
+  - kessara
+creatures: []
+items:
+  - cartographers-map-case
+storylines:
+  - cult-of-the-whispering-stars
 ---
 
 Shadow has had a lot of questions about how the cult operates and functions and what their end goal is. It would seem the best way to find that out is to ask them. So if like to propose a session specifically to kidnap a cultist and time permitting interrogate them.
