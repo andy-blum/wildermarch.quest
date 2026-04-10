@@ -8,11 +8,28 @@ characters:
   - kouzlo
   - aldric-vaun
   - rowan-swiftleaf
-locations: []
-npcs: []
-creatures: []
-items: []
-storylines: []
+locations:
+  - great-mushroom
+  - fairy-ring
+  - great-tree
+npcs:
+  - el
+  - chippy
+  - henna
+  - oshello
+  - lola
+  - professor-fiddlesticks
+  - trogeth
+creatures:
+  - displacer-beast
+  - pixie
+  - shadow-injector
+items:
+  - cartographers-map-case
+  - necromancers-journal
+storylines:
+  - feywild-exploration
+  - healing-the-great-tree
 ---
 
 The Party is stuck in the Feywild! After an attack by pixies and displacer beasts, the party makes their way towards the Giant Mushrooms in hopes that the portal is there to take them back home.

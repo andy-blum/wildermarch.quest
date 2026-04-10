@@ -34,4 +34,6 @@ All three are attunable and connected through the Feywild.
 - Fey Court politics (Titania vs Queen Mab) create underlying tension
 
 **Feywild Expedition:**
-The party has entered the Feywild but was violently expelled near the Great Mushroom after Trogeth's journal interfered with transit. They battled pixies and Displacer Beasts in the vibrant fields. The exploration continues.
+The party explored the Great Mushroom and discovered the Shadowfell corruption has spread beyond the Great Tree. Six shadow injector creatures were found driving necrotic tissue into the smallest mushroom in the cluster — the same rot signature seen on the Great Tree. The party destroyed them and the shadow entity they spawned, healing the mushroom.
+
+This confirms the threat is systemic across the anchor network, not isolated to the Great Tree. The Great Pine remains unexplored and may face similar corruption.

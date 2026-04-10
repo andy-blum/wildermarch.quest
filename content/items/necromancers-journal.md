@@ -22,4 +22,4 @@ Two scrolls of Revivify that persist only as potential - limited, fragile, finit
 **Warning:**
 The journal interferes with planar transit. During the party's attempt to travel through the Feywild, it writhed violently in Kouzlo's pack. He suppressed Trogeth's influence through sheer arcane will, but the party was still expelled near the Great Mushroom.
 
-Kouzlo carries the journal. Its cackling presence remains a liability.
+By the time the party reached the Great Mushroom's portal room, he understood the book well enough to suppress Trogeth's interference entirely. The return transit through the portal was simply a step — no violence, no expulsion, no cackling.
