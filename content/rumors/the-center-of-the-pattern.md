@@ -14,3 +14,5 @@ When Thalen aligned the Amulet of Whispering Stars with his starry cloak and map
 At the center of that shape lies an ordinary-looking empty field beyond the N.O.D.E. outpost. The largest eye on the amulet corresponds to this location.
 
 Power does not scatter itself so neatly without purpose. Whatever the cult is building toward, this field may be its focus.
+
+Session 20 revealed that the central eye represents the elder Aboleth — a being "older than all" that witnessed creation itself. The cult's goal is *the unification*, and the subterranean fortress beneath this region houses the bulk of cult forces making final preparations. The field has not yet been investigated.

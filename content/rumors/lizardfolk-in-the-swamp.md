@@ -1,7 +1,7 @@
 ---
 title: Lizardfolk in the Swamp
 source: Cultist letter (Session 06)
-status: open
+status: resolved
 factions:
   - lizardfolk
   - cult-of-the-whispering-stars
@@ -11,6 +11,4 @@ A letter recovered from the corrupted cave mentioned cult reinforcements being d
 
 > "We were attacked in the swamp by the lizard men again."
 
-The lizardfolk are clearly enemies of the cult, but whether they oppose the cult intentionally or are simply defending their territory remains unknown. They could be potential allies—or another threat entirely.
-
-The swamp's location has not been determined.
+The party found the lizardfolk in the Pink Swamps (Session 18). The cult had raided their village, slaughtering inhabitants and taking survivors prisoner to mine crystals from a fallen star beneath the swamp. The party destroyed the cult operation, freed the prisoners, and brought the survivors — led by Kessara — back to N.O.D.E. camp. The lizardfolk are confirmed allies.
