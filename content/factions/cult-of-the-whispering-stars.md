@@ -17,7 +17,15 @@ A widespread cult operating throughout the Wildermarch, serving something vast b
 - Mountain cavern (destroyed)
 - Coral Forest crystal (destroyed)
 - Underwater tower (intact, location known)
+- Underground castle beyond bugkin tunnels (intact, tunnel collapsed)
+- Pink Swamps crystal chamber (destroyed, collapsed)
 
-A letter recovered from cultists mentioned reinforcements delayed by lizardfolk attacks in a swamp, suggesting ongoing conflict with other factions and additional cult presence in unexplored areas.
+**Capabilities:**
+- At least one cultist carried a potion (vibrant purple liquid) that causes grotesque physical transformation — muscles bulging, growing stronger as damaged
+- A dwarven cultist wielded a staff capable of casting a wave of decay that both damaged enemies and healed allies
+- Cultists are capable of refining raw crystals into the polished form used at ritual sites
+
+**The Truth:**
+The cult serves an elder Aboleth — a being older than all others that witnessed creation itself. The cult's goal is *the unification*. Cultists are permanently charmed by Aboleth magic, bound so deeply that their past selves are erased. Silas, the captured cultist, could not remember his own life before the cult. The Aboleth speaks through its puppets at will, their eyes flaring red when it surfaces.
 
 The stars are watching.

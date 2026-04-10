@@ -3,8 +3,10 @@ name: Lizardfolk
 disposition: neutral
 ---
 
-A group inhabiting a swamp somewhere in the Wildermarch. They have been attacking cult reinforcements attempting to reach ritual sites, making them enemies of the Cult of the Whispering Stars.
+A tribe inhabiting the Pink Swamps in the Wildermarch. They had been attacking cult reinforcements attempting to reach ritual sites, making them enemies of the Cult of the Whispering Stars.
 
-Little else is known about them. A letter recovered from cultists mentioned: "We were attacked in the swamp by the lizard men again."
+The cult retaliated by raiding their village — slaughtering inhabitants, burning structures, and taking survivors prisoner to an underground crystal-refining operation beneath the swamp. The party destroyed the cultists, freed the prisoners, and collapsed the chamber.
 
-Whether they oppose the cult intentionally or are simply defending their territory remains unclear. They may be potential allies—or another threat entirely.
+Kessara, a female lizardfolk, now leads what remains of the tribe. She told the party that a star fell from the sky long ago and landed in the swamp — the source of its life and abundance. The cult had been extracting "stars from beneath the earth," refining them into the crystals seen at other cult sites.
+
+The surviving lizardfolk returned to N.O.D.E. camp with the party. They are allies.

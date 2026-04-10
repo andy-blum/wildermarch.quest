@@ -30,7 +30,10 @@ The coastal waters of the Wildermarch are dying. The reef has turned white and f
 - Coralia gave her trident to Ozemon and her cloak to Jorath before being taken
 - The party earned the title "Reef Friend" and carries coral fragments as tokens
 
+**The Aboleth Connection:**
+The interrogation of Silas confirmed that the psionic abomination in the Coral Forest was one of multiple Aboleths — "one of my brothers." The party has also slain at least one Aboleth, described as "an unforgivable act." Lizardfolk sailors aboard the Tidefang reported deep-beasts that crawl inside minds and whisper without words, causing crew to hurl themselves overboard and return hollowed out — classic Aboleth behavior.
+
 **Unresolved:**
 - Coralia's fate remains unknown
 - The underwater tower depicted in cult drawings has not been explored
-- The source of the corruption has not been identified
+- S'shar and the Tidefang are missing at sea, likely encountering Aboleths

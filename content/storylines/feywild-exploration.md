@@ -18,14 +18,15 @@ The party has gained access to the Feywild through the healed portal beneath the
 - The Great Mushroom (western swamplands) - towering fungi, vibrant wetlands
 
 **Current Status:**
-The party attempted to transit through the Feywild but Trogeth's journal interfered, writhing violently as Kouzlo suppressed the Shadar-kai spirit's influence. They were violently expelled into a vibrant field of flowers near the Great Mushroom.
-
-Immediately hostile, the Feywild near the Mushroom presented:
-- Pixies attacking with darts and spores
-- Displacer Beasts emerging from the grass
-- Unpredictable terrain where compasses spin uselessly
-
-The party has not secured a rest. A pixie hovers inches from Aldric's face.
+The party successfully explored the Great Mushroom area and returned home through its portal. Key events:
+- Fought pixies and Displacer Beasts after being expelled near the Mushroom
+- Befriended the pixies, who guided them toward the Mushroom using Quick's living map
+- Entered El's fairy ring — were shrunk, feasted, danced, and subjected to Feywild etiquette games
+- Received sealed papers from El with unknown contents
+- Destroyed shadow injector creatures corrupting the Great Mushroom (same Shadowfell rot as the Great Tree)
+- Used the Mushroom's internal portal room to return to the Great Tree; Kouzlo suppressed Trogeth's journal interference entirely
 
 **Fey Politics:**
 Tension exists between the Summer Court (Titania) and Winter Court (Queen Mab). The Eladrin guardians seem caught between these powers, and their knowledge of events on the Material Plane may be incomplete - or deliberately withheld.
+
+El's fairy ring court near the Great Mushroom operates with its own rules and customs. El appears to hold significant local authority, and his reaction to those who withheld names or refused food suggests that Feywild social contracts carry real consequences.

@@ -14,4 +14,4 @@ A tower lies beneath the waves, capped with a red crystal roof. It has been seen
 1. Glimpsed from the psychic obelisk on the bluff north of camp
 2. Depicted in cult drawings showing larger psionic aberrations surrounding it
 
-The tower appears to be the cult's headquarters or a site of great importance to their operations. Its exact location and the horrors within remain unknown.
+The tower appears to be a site of great importance to cult operations. Session 20 revealed that the Aboleth described the red stone tower drawing as an *invitation* — it wants the party's strength in its ranks. The subterranean fortress (not the tower) houses the bulk of cult forces, and the Aboleth can reach it via waterway but does not normally dwell there. The tower's exact purpose and the relationship between it and the fortress remain unclear.

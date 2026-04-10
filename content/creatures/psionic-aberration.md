@@ -10,3 +10,5 @@ A three-eyed, tentacled creature that surfaced from the churning pool in the cor
 The creature attacked silently despite its towering presence, projecting its death cry through the minds of all present rather than through sound. Its destruction caused the cave's corrupted water to begin clearing.
 
 Contact with the creature induced a drowning sensation and burning in those who touched it. The star-shaped Amulet of Whispering Stars was found nearby, with one of its eye symbols matching the creature exactly.
+
+The Aboleth later confirmed that the crystals produce different results depending on the inputs fed to them — lives, magic, environment. This creature may be a product of that experimentation rather than a natural being.

@@ -29,5 +29,17 @@ A widespread cult operating throughout the Wildermarch, identifiable by their st
 - The mountain cavern crystal was destroyed, triggering a vision of a psionic empire acknowledging the party and promising "it was coming"
 - An underground castle was discovered beyond the bugkin colony tunnels, with visible cult activity
 - The party collapsed the tunnel leading to the fortress - they were not equipped for that confrontation
+- Cultists raided a lizardfolk village in the Pink Swamps, slaughtering inhabitants and taking hostages to use as labor or leverage while they refined crystals underground
+- The crystals in the swamp are connected to a fallen star — the source of the swamp's life and the pink trees' power
+- Cultists possessed a potion that causes grotesque physical transformation (vibrant purple liquid)
+- The party destroyed the swamp operation, freed the prisoners, and captured one cultist alive for interrogation
+- Bound notes were recovered from the cultist podium
 
-The stars are watching. And something beneath the waves is waking.
+**The Aboleth Revealed:**
+The captured cultist Silas — under Zone of Truth and direct probing by Helena — confirmed that the cult serves an elder Aboleth, a being "older than all" that saw "everything be made." The cult's goal is *the unification*: bringing a cosmic "purpose" to all living things. The crystals come from a fallen star from the Aboleth's home, and the cult feeds them different inputs to coax out different abilities.
+
+The cult symbol's five eyes each represent a different entity. Only the central eye is an Aboleth — the other four are something else entirely, and each represents a different catastrophic ending. The Aboleth can speak through charmed cultists, puppeting their flesh. It described the red stone tower as an *invitation* and expressed interest in recruiting the party.
+
+Multiple Aboleths exist. The fortress houses the bulk of cult forces making final preparations. The time, Silas warned, is nigh.
+
+The stars are watching. And the thing beneath the waves is awake.
