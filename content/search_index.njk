@@ -1,0 +1,13 @@
+---
+layout: false
+permalink: /searchindex.json
+eleventyExcludeFromCollections: true
+---
+{# Force Eleventy to render all collection content so item.content is populated for indexing #}
+{% set rendercache %}
+  {% for name in ["characters", "sessions", "locations", "npcs", "rumors", "factions", "items", "creatures", "storylines", "documents"] %}
+    {% for item in collections[name] %}
+      {{ item.content }}
+    {% endfor %}
+  {% endfor %}
+{% endset %}{% oramaIndex collections %}
