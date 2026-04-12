@@ -663,6 +663,81 @@ tbody tr:hover {
   box-shadow: var(--shadow);
 }
 
+/* Art viewer (zoom/pan) */
+.art-viewer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid var(--color-border);
+  box-shadow: var(--shadow);
+  background: var(--color-bg);
+  cursor: grab;
+  user-select: none;
+  margin: 1rem 0;
+}
+
+.art-viewer-surface {
+  position: relative;
+  width: 100%;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.art-viewer-surface img {
+  width: 100%;
+  display: block;
+}
+
+.art-viewer-controls {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  z-index: 10;
+}
+
+.art-viewer-controls button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--color-border);
+  background: var(--color-stat-bg);
+  color: var(--color-heading);
+  font-family: 'ScalySans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.art-viewer-controls button:hover {
+  background: var(--color-accent);
+}
+
+.art-viewer-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.art-viewer-fullscreen .art-viewer-surface {
+  max-width: calc(100vh * var(--art-aspect, 1));
+  max-height: calc(100vw / var(--art-aspect, 1));
+  height: 100%;
+}
+
 .artwork-meta {
   margin-bottom: 1rem;
 }

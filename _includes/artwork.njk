@@ -13,9 +13,18 @@ layout: base.njk
     {% endif %}
   </div>
   {% elif image %}
-  <figure class="artwork-image">
-    <img src="/images/gallery/{{ image }}" alt="{{ title }}">
-  </figure>
+  <div class="art-viewer" id="art-viewer">
+    <div class="art-viewer-surface" id="art-surface">
+      <img src="/images/gallery/{{ image }}" alt="{{ title }}" draggable="false">
+    </div>
+    <div class="art-viewer-controls">
+      <button type="button" id="art-fullscreen" title="Fullscreen">&#x26F6;</button>
+      <button type="button" id="art-zoom-in" title="Zoom in">+</button>
+      <button type="button" id="art-zoom-reset" title="Reset zoom">1:1</button>
+      <button type="button" id="art-zoom-out" title="Zoom out">&minus;</button>
+    </div>
+  </div>
+  <script src="/js/art-viewer.js" defer></script>
   {% endif %}
 
   <div class="artwork-meta">
