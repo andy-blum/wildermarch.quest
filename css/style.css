@@ -847,6 +847,8 @@ tbody tr:hover {
   #search-form input[type="search"] {
     flex: 1;
   }
+}
+
 /* Map — shared pin styles */
 .map-container {
   position: relative;
