@@ -2,6 +2,8 @@
 name: The Bluff
 type: landmark
 status: explored
+mapX: 41
+mapY: 19
 factions:
   - cult-of-the-whispering-stars
 ---

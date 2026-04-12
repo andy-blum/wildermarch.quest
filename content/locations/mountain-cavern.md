@@ -2,6 +2,8 @@
 name: Mountain Cavern
 type: dungeon
 status: explored
+mapX: 40
+mapY: 44
 factions:
   - cult-of-the-whispering-stars
 ---

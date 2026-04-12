@@ -2,6 +2,8 @@
 name: The Wizard's Tower
 type: landmark
 status: rumored
+mapX: 45
+mapY: 55
 ---
 
 A leaning wizard's tower crowned over a great lake, spotted from the southern mountains by the hermit Grit.

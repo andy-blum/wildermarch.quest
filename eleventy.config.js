@@ -40,7 +40,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy({"js/*.js": "js"});
   eleventyConfig.addPassthroughCopy({
     './node_modules/@orama/orama/dist/browser': './js/orama',
   });

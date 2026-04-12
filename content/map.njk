@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: Map
+permalink: /map/
+---
+<h1>Map of the Wildermarch</h1>
+
+<div class="map-viewer" id="map-viewer">
+  <div class="map-viewer-surface" id="map-surface">
+    <img src="/images/wildermarch-map-small.webp"
+         srcset="/images/wildermarch-map-small.webp 852w, /images/wildermarch-map-full.webp 2048w"
+         sizes="(min-width: 900px) 852px, calc(100vw - 3rem)"
+         alt="Map of the Wildermarch"
+         width="2048" height="1536"
+         draggable="false">
+    {% for loc in collections.locations %}
+      {% if loc.data.mapX and loc.data.mapY %}
+        <a href="{{ loc.url }}"
+           class="map-pin"
+           style="left: {{ loc.data.mapX }}%; top: {{ loc.data.mapY }}%;"
+           title="{{ loc.data.name }}"
+           aria-label="{{ loc.data.name }}"
+           data-slug="{{ loc.fileSlug }}">
+          <span class="map-pin-label">{{ loc.data.name }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="map-viewer-controls">
+    <button type="button" id="map-fullscreen" title="Fullscreen">&#x26F6;</button>
+    <button type="button" id="map-zoom-in" title="Zoom in">+</button>
+    <button type="button" id="map-zoom-reset" title="Reset zoom">1:1</button>
+    <button type="button" id="map-zoom-out" title="Zoom out">&minus;</button>
+  </div>
+</div>
+
+<script src="/js/map-viewer.js" defer></script>

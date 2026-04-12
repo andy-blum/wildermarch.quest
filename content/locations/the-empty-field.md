@@ -2,6 +2,8 @@
 name: The Empty Field
 type: wilderness
 status: rumored
+mapX: 42
+mapY: 36
 factions:
   - cult-of-the-whispering-stars
 ---

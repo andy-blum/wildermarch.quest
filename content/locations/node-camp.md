@@ -2,6 +2,8 @@
 name: N.O.D.E. Camp
 type: settlement
 status: explored
+mapX: 38
+mapY: 26
 factions:
   - node
 ---
