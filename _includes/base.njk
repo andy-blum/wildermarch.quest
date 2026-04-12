@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or name }} | West of Wonder</title>
   <link rel="stylesheet" href="/css/style.css">
+  <script type="module" src="/js/search.js"></script>
 </head>
 <body>
   <div class="site-wrapper">
@@ -36,7 +37,27 @@
         </div>
       </div>
       <a href="/artwork/">Artwork</a>
+      <form id="search-form" role="search" hidden>
+        <input
+          type="search"
+          name="query"
+          id="search-input"
+          placeholder="Search..."
+          autocomplete="off"
+        />
+        <button type="submit" disabled>Search</button>
+      </form>
     </nav>
+    <dialog id="search-results" aria-labelledby="search-results-heading">
+      <header class="search-results-header">
+        <h2 id="search-results-heading">Search Results</h2>
+        <button class="search-close" aria-label="Close search results">&times;</button>
+      </header>
+      <select class="search-filter-select" id="search-filters" aria-label="Filter by type">
+        <option value="">All types</option>
+      </select>
+      <ul id="search-results-list" aria-live="polite"></ul>
+    </dialog>
     <main>
       {{ content | safe }}
     </main>

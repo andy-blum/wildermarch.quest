@@ -1,7 +1,49 @@
+import striptags from 'striptags';
+
+const SEARCH_COLLECTIONS = [
+  'characters', 'sessions', 'locations', 'npcs', 'rumors',
+  'factions', 'items', 'creatures', 'storylines', 'documents',
+];
+
+// Frontmatter fields worth indexing per collection (skip slugs, images, urls, booleans)
+const METADATA_FIELDS = {
+  characters: ['race', 'class', 'subclass', 'background', 'titles', 'status'],
+  sessions: ['date'],
+  locations: ['type', 'status'],
+  npcs: ['disposition'],
+  rumors: ['source', 'status'],
+  factions: ['disposition'],
+  items: ['type', 'rarity'],
+  creatures: ['type', 'threat'],
+  storylines: ['status'],
+  documents: ['type', 'date'],
+};
+
+function extractMetadata(data, collectionName) {
+  const fields = METADATA_FIELDS[collectionName] || [];
+  const parts = [];
+  for (const field of fields) {
+    const val = data[field];
+    if (!val) continue;
+    if (Array.isArray(val)) {
+      parts.push(val.join(' '));
+    } else if (val instanceof Date) {
+      parts.push(val.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }));
+    } else {
+      parts.push(String(val));
+    }
+  }
+  return parts.join(' ');
+}
+
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy({
+    './node_modules/@orama/orama/dist/browser': './js/orama',
+  });
 
   // Content collections
   eleventyConfig.addCollection("characters", collection =>
@@ -80,4 +122,34 @@ export default function(eleventyConfig) {
   // Filter to find items where a single field matches a slug
   eleventyConfig.addFilter("whereField", (collection, field, slug) =>
     collection.filter(item => item.data[field] === slug));
+
+  // Orama search index shortcode
+  eleventyConfig.addShortcode('oramaIndex', async function(collections) {
+    const { create, insert, save } = await import('@orama/orama');
+
+    const db = create({
+      schema: {
+        url: 'string',
+        type: 'string',
+        title: 'string',
+        metadata: 'string',
+        content: 'string',
+      },
+    });
+
+    for (const name of SEARCH_COLLECTIONS) {
+      const items = collections[name] || [];
+      for (const item of items) {
+        insert(db, {
+          url: item.page.url,
+          type: name,
+          title: item.data.title || item.data.name || item.fileSlug,
+          metadata: extractMetadata(item.data, name),
+          content: striptags(item.content || '').replace(/\s+/g, ' ').trim(),
+        });
+      }
+    }
+
+    return JSON.stringify(save(db));
+  });
 };
