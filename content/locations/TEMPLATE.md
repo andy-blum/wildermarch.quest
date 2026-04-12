@@ -6,6 +6,8 @@ parent: parent-location-slug # optional
 factions:
   - faction-slug
 image: # optional, filename in images/locations/
+mapX: # optional, percentage 0-100 from left edge of map
+mapY: # optional, percentage 0-100 from top edge of map
 ---
 
 Location description.

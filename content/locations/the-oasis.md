@@ -2,6 +2,8 @@
 name: The Oasis
 type: wilderness
 status: rumored
+mapX: 62
+mapY: 52
 ---
 
 An oasis in the desert to the west of the southern mountains, visible from Grit's camp.

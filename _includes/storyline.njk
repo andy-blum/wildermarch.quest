@@ -30,13 +30,36 @@ layout: base.njk
 
 {{ content | safe }}
 
+{% set storylineLocs2 = collections.locations | findAll(locations) %}
+{% set mapSlugs = [] %}
+{% for loc in storylineLocs2 %}
+  {% if loc.data.mapX and loc.data.mapY %}
+    {% set mapSlugs = (mapSlugs.push(loc.fileSlug), mapSlugs) %}
+  {% endif %}
+{% endfor %}
+{% if mapSlugs.length %}
+<section>
+  <h2>Map</h2>
+  <div class="map-container">
+    <img src="/images/wildermarch-map-small.webp" alt="Map of locations in this storyline" width="852" height="639">
+    {% for loc in storylineLocs2 %}
+      {% if loc.data.mapX and loc.data.mapY %}
+        <span class="map-pin highlighted" style="left: {{ loc.data.mapX }}%; top: {{ loc.data.mapY }}%;" title="{{ loc.data.name }}">
+          <span class="map-pin-label">{{ loc.data.name }}</span>
+        </span>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% set storylineSessions = collections.sessions | mentionedIn("storylines", page.fileSlug) %}
 {% if storylineSessions.length %}
 <section>
   <h2>Sessions</h2>
   <ul>
     {% for session in storylineSessions %}
-    <li><a href="{{ session.url }}">{{ session.data.title }}</a> ({{ session.data.date }})</li>
+    <li><a href="{{ session.url }}">{{ session.data.title }}</a> ({{ session.data.date | dateDisplay }})</li>
     {% endfor %}
   </ul>
 </section>

@@ -52,6 +52,8 @@ Places in the world - dungeons, towns, wilderness areas, etc.
 | parent | slug | Parent location (for sub-locations) |
 | factions | slug[] | Factions with presence here |
 | image | string | Filename in images/locations/ (optional) |
+| mapX | number | Percentage (0-100) from left edge of map image (optional) |
+| mapY | number | Percentage (0-100) from top edge of map image (optional) |
 
 **Reverse relationships:**
 - Child locations (sub-locations)

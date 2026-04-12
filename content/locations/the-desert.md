@@ -2,6 +2,8 @@
 name: The Desert
 type: wilderness
 status: discovered
+mapX: 52
+mapY: 50
 ---
 
 Arid lands south of the mountain pass. The party survived a brutal climb and fall into a canyon, fighting living cacti and insect swarms amid the heat.

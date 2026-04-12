@@ -2,6 +2,8 @@
 name: The Great Mushroom
 type: landmark
 status: explored
+mapX: 19
+mapY: 66
 factions:
   - guardians-of-the-great-tree
   - fey-courts

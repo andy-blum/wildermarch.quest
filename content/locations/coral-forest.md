@@ -2,6 +2,8 @@
 name: The Coral Forest
 type: wilderness
 status: explored
+mapX: 32
+mapY: 32
 factions:
   - sea-guardians
   - cult-of-the-whispering-stars

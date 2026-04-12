@@ -151,6 +151,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --color-border: #C0AD6A;
   --color-link: #58180D;
   --color-link-hover: #9C2B1B;
+  --color-highlight: #d4af37;
   --shadow: 1px 4px 14px rgba(0, 0, 0, 0.15);
 }
 
@@ -358,16 +359,25 @@ blockquote p {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   gap: 0.5rem 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   border-bottom: 2px solid var(--color-header-underline);
 }
 
-.site-nav a {
+.site-nav > a {
+  display: flex;
+  align-items: center;
   font-family: 'ScalySansCaps', 'ScalySans', sans-serif;
   font-size: 0.9rem;
+  line-height: 1;
   color: var(--color-heading);
+}
+
+.site-nav .nav-dropdown {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav a:hover {
@@ -383,6 +393,7 @@ blockquote p {
 .nav-dropdown-toggle {
   font-family: 'ScalySansCaps', 'ScalySans', sans-serif;
   font-size: 0.9rem;
+  line-height: 1;
   color: var(--color-heading);
   background: none;
   border: none;
@@ -676,4 +687,197 @@ tbody tr:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* Map — shared pin styles */
+.map-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.map-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid var(--color-border);
+  box-shadow: var(--shadow);
+}
+
+.map-pin {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  margin-top: -6px;
+  background: var(--color-heading);
+  border: 2px solid var(--color-stat-bg);
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  z-index: 2;
+  text-decoration: none;
+}
+
+.map-pin:hover {
+  background: var(--color-link-hover);
+  transform: scale(1.4);
+  z-index: 3;
+  text-decoration: none;
+}
+
+.map-pin-label {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background: var(--color-heading);
+  color: var(--color-stat-bg);
+  font-family: 'ScalySans', sans-serif;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 4px;
+  pointer-events: none;
+}
+
+.map-pin:hover .map-pin-label {
+  display: block;
+}
+
+.map-pin.highlighted {
+  background: var(--color-highlight);
+  border-color: var(--color-surface);
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  margin-top: -8px;
+  box-shadow: 0 0 6px color-mix(in srgb, var(--color-highlight) 60%, transparent);
+}
+
+.map-pin.dimmed {
+  opacity: 0.3;
+}
+
+/* Map — thumbnail link on storyline pages */
+.map-thumbnail {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.map-thumbnail:hover {
+  text-decoration: none;
+}
+
+.map-thumbnail:hover .map-thumbnail-hint {
+  opacity: 1;
+}
+
+.map-thumbnail .map-pin {
+  pointer-events: none;
+}
+
+.map-thumbnail-hint {
+  display: block;
+  text-align: center;
+  font-family: 'ScalySans', sans-serif;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-top: 0.35rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+/* Map — full-view zoom/pan viewer */
+.map-viewer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 2px solid var(--color-border);
+  box-shadow: var(--shadow);
+  background: #3a5a5e;
+  cursor: grab;
+  user-select: none;
+}
+
+.map-viewer-surface {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.map-viewer-surface img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.map-viewer .map-pin {
+  transform: scale(calc(1 / var(--map-scale, 1)));
+}
+
+.map-viewer .map-pin:hover {
+  transform: scale(calc(1.4 / var(--map-scale, 1)));
+}
+
+.map-viewer .map-pin:hover .map-pin-label {
+  display: block;
+}
+
+.map-viewer-controls {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  z-index: 10;
+}
+
+.map-viewer-controls button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--color-border);
+  background: var(--color-stat-bg);
+  color: var(--color-heading);
+  font-family: 'ScalySans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.map-viewer-controls button:hover {
+  background: var(--color-accent);
+}
+
+.map-viewer-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  aspect-ratio: auto;
+  z-index: 100;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-viewer-fullscreen .map-viewer-surface {
+  width: 100%;
+  height: 100%;
+  max-width: calc(100vh * var(--map-aspect, 4 / 3));
+  max-height: calc(100vw / var(--map-aspect, 4 / 3));
 }

@@ -2,6 +2,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy({"js/*.js": "js"});
 
   // Content collections
   eleventyConfig.addCollection("characters", collection =>

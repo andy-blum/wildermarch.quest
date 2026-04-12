@@ -2,6 +2,8 @@
 name: The Pink Swamps
 type: wilderness
 status: explored
+mapX: 31
+mapY: 58
 factions:
   - lizardfolk
   - cult-of-the-whispering-stars
