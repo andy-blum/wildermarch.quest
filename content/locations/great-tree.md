@@ -2,6 +2,8 @@
 name: The Great Tree
 type: landmark
 status: explored
+mapX: 49
+mapY: 33
 factions:
   - guardians-of-the-great-tree
 ---

@@ -2,6 +2,8 @@
 name: Moon Corn Fields
 type: wilderness
 status: explored
+mapX: 38
+mapY: 34
 parent: node-camp
 factions:
   - node

@@ -2,6 +2,8 @@
 name: The Reef
 type: wilderness
 status: discovered
+mapX: 34
+mapY: 19
 factions:
   - sea-guardians
 ---
