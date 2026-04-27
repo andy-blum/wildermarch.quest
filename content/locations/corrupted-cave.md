@@ -2,8 +2,8 @@
 name: Corrupted Cave
 type: dungeon
 status: explored
-mapX: 39
-mapY: 21
+mapX: 53
+mapY: 32
 factions:
   - cult-of-the-whispering-stars
 ---

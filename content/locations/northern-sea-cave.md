@@ -2,6 +2,8 @@
 name: Northern Sea Cave
 type: dungeon
 status: explored
+mapX: 39
+mapY: 21
 factions:
   - cult-of-the-whispering-stars
 ---
