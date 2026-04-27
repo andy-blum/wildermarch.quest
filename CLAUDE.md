@@ -11,6 +11,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Other content (locations, npcs, factions, etc.) and the `## What We've Learned` sections of characters contain AI-generated/inferred content that may be updated based on session events.
 
+**Character `## What We've Learned` sections have a high bar:** only update them when a session reveals new backstory, motivation, identity, or otherwise dramatically alters the character. Routine session events — what they did, fought, found, or used — belong in session logs, NPC/location pages, or storylines, not on the character's own page.
+
+**Item pages have a similar high bar:** only update them when a session reveals new properties, origin, history, or otherwise changes what the item *is*. Routine usage — who cast what with it, in which encounter — belongs in session logs, not on the item's page.
+
 ## Commands
 
 - `npm run start` - Start development server with live reload

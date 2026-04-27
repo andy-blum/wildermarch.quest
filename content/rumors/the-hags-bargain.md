@@ -16,3 +16,5 @@ Helena's magic cracked through Grit's mental barriers, revealing fragments: a ba
 Grit struggles to answer questions about the bargain, as if something prevents him from speaking.
 
 **Warning:** The hag has taken notice of Madam Helena specifically.
+
+Session 21 progressed the thread substantially: the party crossed the desert to confront Dirtha at her shack beneath the oasis. Grit's camp was empty when they passed through. Dirtha proposed a game of bone cards, marked Helena and Aldric with summoned creatures, and vanished — revealing a vast pyramid buried beneath the cavern floor. She serves something she calls the Empty Throne.

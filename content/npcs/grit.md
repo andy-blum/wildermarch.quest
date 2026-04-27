@@ -31,3 +31,6 @@ Grit pointed out an oasis to the west, a leaning wizard's tower over a great lak
 
 **Connection to the Wizard's Tower:**
 Quick, Mel, and Helena later found Grit standing at the shore of the tower's lake, muttering words about releasing elements and drawing a map into the sand — though he couldn't explain why he was drawn there. The tower door, which has no handle or lock, only fully opened when Grit touched it. His connection to the tower remains unexplained.
+
+**Origins:**
+A long-time oasis dweller — transformed by Dirtha into human form long ago — knew Grit before her change and remembered him: *"Grit wasn't,"* she said, *"then Grit was. Grit brought balance."* Whatever Grit is, he was not always here, and he arrived in opposition to the hag.
