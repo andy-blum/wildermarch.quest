@@ -13,6 +13,7 @@ permalink: /characters/
       <th>Name</th>
       <th>Race</th>
       <th>Class</th>
+      <th>Sessions</th>
     </tr>
   </thead>
   <tbody>
@@ -23,6 +24,7 @@ permalink: /characters/
       <td><a href="{{ char.url }}">{{ char.data.name }}</a></td>
       <td>{{ char.data.race }}</td>
       <td>{{ char.data.class }}{% if char.data.subclass %} ({{ char.data.subclass }}){% endif %}</td>
+      <td>{{ collections.sessions | mentionedIn('characters', char.fileSlug) | length }}</td>
     </tr>
     {% endif %}
     {% endfor %}
@@ -37,6 +39,7 @@ permalink: /characters/
       <th>Name</th>
       <th>Race</th>
       <th>Class</th>
+      <th>Sessions</th>
       <th>Status</th>
     </tr>
   </thead>
@@ -48,6 +51,7 @@ permalink: /characters/
       <td><a href="{{ char.url }}">{{ char.data.name }}</a></td>
       <td>{{ char.data.race }}</td>
       <td>{{ char.data.class }}{% if char.data.subclass %} ({{ char.data.subclass }}){% endif %}</td>
+      <td>{{ collections.sessions | mentionedIn('characters', char.fileSlug) | length }}</td>
       <td><span class="status status--{{ char.data.status }}">{{ char.data.status }}</span></td>
     </tr>
     {% endif %}
