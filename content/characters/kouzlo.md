@@ -5,6 +5,7 @@ class: Wizard
 background: Failed Merchant
 titles:
   - Reef Friend
+  - B.A.A.
 status: active
 dndbeyond: https://www.dndbeyond.com/sheet-pdfs/andyblum_153920499.pdf
 portrait: kouzlo.png

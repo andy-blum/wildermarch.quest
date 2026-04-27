@@ -5,6 +5,7 @@ class: Wizard
 background: Cloistered Scholar
 titles:
   - Reef Friend
+  - B.A.A.
 status: active
 ---
 

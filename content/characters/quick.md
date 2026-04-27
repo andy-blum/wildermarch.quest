@@ -4,7 +4,8 @@ race: Harengon
 class: Rogue/Ranger
 subclass: Gloom Stalker
 background: Scout
-titles: []
+titles:
+  - B.A.A.
 status: active
 dndbeyond: https://www.dndbeyond.com/sheet-pdfs/TylerHays_153900223.pdf
 portrait: quick_cloak-whispering-stars.jpg
