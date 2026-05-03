@@ -2,7 +2,7 @@
 name: The Great Pine
 type: landmark
 status: rumored
-mapX: 74
+mapX: 91
 mapY: 9
 factions:
   - guardians-of-the-great-tree

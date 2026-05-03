@@ -3,6 +3,8 @@ name: The Sunken Pyramid
 type: dungeon
 status: discovered
 parent: the-oasis
+mapX: 65
+mapY: 51
 ---
 
 A vast, ancient pyramid buried beneath the desert, descending into the earth from beneath Auntie Dirtha Bonebender's shack. Its apex sits in the sand of an enormous underground cavern; the structure itself plunges far deeper.

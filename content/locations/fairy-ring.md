@@ -3,6 +3,8 @@ name: The Fairy Ring
 type: landmark
 status: explored
 parent: great-mushroom
+mapX: 14
+mapY: 66
 factions:
   - fey-courts
 ---

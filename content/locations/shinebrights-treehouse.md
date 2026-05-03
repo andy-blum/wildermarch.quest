@@ -4,8 +4,8 @@ type: landmark
 status: explored
 factions:
   - node
-mapX: 50
-mapY: 27
+mapX: 53
+mapY: 25
 ---
 
 A wizard's workshop built into the canopy of the forest north of the Great Tree, formerly the home of the elf Finothere Shinebright and his apprentice Ahmed Noke. The forest around it is thinner-leaved and sparser than the woods near camp, the terrain rising on a gentle incline toward the structure.
