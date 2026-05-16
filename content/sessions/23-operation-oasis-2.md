@@ -24,7 +24,7 @@ With Auntie Dirtha gone on the wind and the sand peeling back to reveal the apex
 
 ## Recap
 
-The cavern hummed with the after-echo of Dirtha's departure. Aldric, Helena, Kouzlo, Thalen "Quick" Quickburrow, and Jorath stood between a thundering waterfall and the apex of a pyramid that should not have existed an hour earlier. Across the sand, the mummy clambered onto the scorpion's rotting carapace and rode it like a steed — its wrappings, cracked exoskeleton, and curling tail moving as one creature against the party.
+The cavern hummed with the after-echo of Dirtha's departure. Aldric, Helena, Kouzlo, Thalen "Quick" Quickburrow, and Jorath stood between a subterranian lake and the apex of a pyramid that should not have existed an hour earlier. Across the sand, the mummy clambered onto the scorpion's rotting carapace and rode it like a steed — its wrappings, cracked exoskeleton, and curling tail moving as one creature against the party.
 
 ### The Bound and the Iron Claw
 
