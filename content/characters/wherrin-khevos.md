@@ -3,7 +3,8 @@ name: Wherrin Khevos
 race: Half-Orc
 class: Wizard
 background:
-titles: []
+titles:
+  - Honor Bound
 status: active
 portrait:
 ---

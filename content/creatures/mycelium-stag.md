@@ -10,4 +10,4 @@ In motion the creatures walk in jerky, aimless patterns until something disturbs
 
 Past the forelimbs and ribs, the host is still in there. With *speak with animals* tuned carefully past a wall of static, a scrap of consciousness remains, pleading to be killed at distance and not allowed to spread the contagion at close quarters. Behind the static — closer to the source — a different voice speaks: ***"MY COLLECTION GROWS."***
 
-The strain operates out of the **mountain monastery** north of the Great Tree, in what was once a house of the Order of the Long Death. Fire makes the growth uncomfortable but does not destroy it.
+The strain operates out of the **mountain monastery** north of the Great Tree, in what was once a house of the Order of the Long Death. The voice behind the static is the **Gestalt**, an Underdark entity the order built the monastery to cage. Fire makes the growth uncomfortable but does not destroy it.
