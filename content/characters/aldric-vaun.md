@@ -28,4 +28,6 @@ After being mind-controlled by an Intellect Devourer and forced to attack Jorath
 
 He restored Coralia's severed arm with Tyr's blessing and has begun building a library framework for Jorath as penance for past failures.
 
+Aldric's connection with Tyr has deepened. During the expedition into the Sunken Pyramid, his divine power manifested in a new form — an eldritch blast of radiant fury that streams from his palm, a gift or manifestation that suggests Tyr's hand is moving more directly through him. He has stopped asking why.
+
 > "Justice does not kneel."

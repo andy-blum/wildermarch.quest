@@ -26,3 +26,5 @@ After a harrowing encounter with magical Darkness at the Great Tree, Quick appro
 Quick maps obsessively and carries a cartographer's case. He helped align the stars on his starry cloak with the cult's activity pattern, revealing the locations of their sites across the region. He now wears a lock of Autumn Laurel's golden hair threaded into his bowstring, a gift from the Fey Eladrin.
 
 From Grit's collection, he received a Cartographer's Map Case that grants +2 to relevant checks.
+
+During the descent into the Sunken Pyramid Quick heard voices on the breeze — the voice of the desert itself, remembering. Quick is developing a sensitivity to the voices of places, the memory that dwells in the earth itself.
