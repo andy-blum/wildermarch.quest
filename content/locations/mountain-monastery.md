@@ -2,6 +2,8 @@
 name: Mountain Monastery
 type: dungeon
 status: explored
+mapX: 57
+mapY: 23
 ---
 
 A small stone chapel and warren of corridors built into the flank of a mountain north of the Great Tree, well past the wizards' tower. The facade is carved with the symbols of **the Order of the Long Death** — a defunct death-cult monastic line that served Jergul and his kind, and is said in dwarven oral history to have died out after one of its houses made contact with something from the Underdark. The construction itself matches what was once the work of the *Monks of the Vale*.
