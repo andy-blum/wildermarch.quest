@@ -25,6 +25,11 @@ He carries a Stone of Good Luck (a pearl recovered from the northern sea cave) a
 
 He identified the glowing fungus Noctiluceum and collected samples for potential underwater breathing potions. His cold logic and remarkable magical output have proven indispensable to the expedition.
 
-From Grit's collection, he received an Oil of Slipperiness.
+From Grit's collection, he received an Oil of Slipperiness, since surrendered to the Coffer of Equivalent Exchange in the Sunken Pyramid.
 
-The Feywild has extended Kouzlo a gift: one perfect, unkindly precise answer, available at a moment of his choosing, in recognition of his attentiveness as a guest. The fine print is characteristically Fey - those granted perfect answers are seldom left entirely unclaimed.
+**The Feywild Debt:**
+The Feywild extended Kouzlo a gift in recognition of his attentiveness as a guest: one perfect, unkindly precise answer, available at a moment of his choosing. The fine print was characteristically Fey — those granted perfect answers are seldom left entirely unclaimed.
+
+He cashed it in to learn the true name of Auntie Dirtha Bonebender. The answer came in two syllables — *I — met —* — and stopped there, because that was all the desert was holding. The voice that whispered in his ear after Dirtha's Power Word Kill grazed past him at one hit point was familiar, gentle, and amused: *"Now you owe us twice."* The price doubled in the process.
+
+He now wears a Ring of Mind Shielding and carries the Alchemical Compendium recovered from the king's chamber.
