@@ -15,8 +15,9 @@ permalink: /documents/
     </tr>
   </thead>
   <tbody>
-    {% for doc in collections.documents | sortBy('title') %}
+    {% for doc in collections.documents | sortBy('fileSlug') %}
     {% set docAuthor = collections.characters | find(doc.data.author) %}
+    {% if not docAuthor %}{% set docAuthor = collections.npcs | find(doc.data.author) %}{% endif %}
     <tr>
       <td><a href="{{ doc.url }}">{{ doc.data.title }}</a></td>
       <td>{{ doc.data.type }}</td>
