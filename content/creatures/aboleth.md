@@ -34,3 +34,4 @@ The cult symbol bears five eyes, each representing a different entity. Only the 
 - A massive psionic abomination with four red eyes surfaced in the Coral Forest waters and watched with fury before fleeing
 - At least one Aboleth has been slain by the party — described as "an unforgivable act"
 - Lizardfolk sailors describe deep-beasts that crawl inside the mind and whisper without words, causing crew to hurl themselves into the sea
+- In the southern sea cave that swallowed the Tidefang, an aboleth's whisper threaded into the party's minds — *I seeeeeee youuuuuuu* — felt as dread by most, translated by Vessel, who knows the tongue of the deep. The aboleth's reach was dulled inside the deep chamber by ribbons of dense, lead-rich galena running through the stone — the same shielding that had kept S'shar's surviving crew sane for as long as they lasted. A chuul thrall was left behind to guard the chamber after it was emptied

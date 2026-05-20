@@ -4,10 +4,12 @@ status: active
 factions:
   - sea-guardians
   - cult-of-the-whispering-stars
+  - lizardfolk
 locations:
   - coral-forest
   - the-reef
   - underwater-tower
+  - southern-sea-cave
 ---
 
 The coastal waters of the Wildermarch are dying. The reef has turned white and fossilized, sea guardians have been corrupted, and necromantic crystals transform the dead into sea spawn.
@@ -33,7 +35,10 @@ The coastal waters of the Wildermarch are dying. The reef has turned white and f
 **The Aboleth Connection:**
 The interrogation of Silas confirmed that the psionic abomination in the Coral Forest was one of multiple Aboleths — "one of my brothers." The party has also slain at least one Aboleth, described as "an unforgivable act." Lizardfolk sailors aboard the Tidefang reported deep-beasts that crawl inside minds and whisper without words, causing crew to hurl themselves overboard and return hollowed out — classic Aboleth behavior.
 
+**The Tidefang's Fate:**
+N.O.D.E. found the Tidefang in a tidal sea cave on the southern coast, exactly where the message-in-a-bottle had pointed. S'shar's logbook recorded the story: a storm drove the ship into the cave, a shape long as the ship in the deep water that never surfaced, then a slow series of disappearances — crew vanishing from watch one at a time with no struggle, no tracks, the perimeter alarm never tripping. *Whatever took them did not come from outside.* S'shar wrote that the whispers in his head went quieter deeper in the cave; the party later found that ribbons of dense, lead-rich galena threaded through the deepest chamber were dulling the aboleth's psychic call. The crew retreated to that chamber to wait out a high tide they never sailed on. The last five were killed and crushed by a chuul left behind to guard the place. The bodies were carried home aboard the Tidefang.
+
 **Unresolved:**
 - Coralia's fate remains unknown
 - The underwater tower depicted in cult drawings has not been explored
-- S'shar and the Tidefang are missing at sea, likely encountering Aboleths
+- The shape long as the ship that drove the Tidefang into the cave was never seen again — likely a leviathan or aboleth servant patrolling the southern coast
