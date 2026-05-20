@@ -8,6 +8,9 @@ layout: base.njk
       {{ type }}
       {% if author %}
         {% set docAuthor = collections.characters | find(author) %}
+        {% if not docAuthor %}
+          {% set docAuthor = collections.npcs | find(author) %}
+        {% endif %}
         {% if docAuthor %}
           by <a href="{{ docAuthor.url }}">{{ docAuthor.data.name }}</a>
         {% endif %}
