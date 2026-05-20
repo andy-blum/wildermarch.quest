@@ -53,3 +53,18 @@ layout: base.njk
   </ul>
 </section>
 {% endif %}
+
+{% set npcCharacterCollision = collections.characters | find(page.fileSlug) %}
+{% if not npcCharacterCollision %}
+{% set npcDocs = collections.documents | whereField("author", page.fileSlug) %}
+{% if npcDocs.length %}
+<section>
+  <h2>Documents</h2>
+  <ul>
+    {% for doc in npcDocs %}
+    <li><a href="{{ doc.url }}">{{ doc.data.title }}</a> <span class="meta">{{ doc.data.type }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endif %}

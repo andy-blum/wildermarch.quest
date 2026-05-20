@@ -85,11 +85,11 @@ export default function(eleventyConfig) {
   // Limit collection to first N items
   eleventyConfig.addFilter("head", (collection, n) => collection.slice(0, n));
 
-  // Sort collection by nested data field
+  // Sort collection by nested data field, or by `fileSlug` for the item itself
   eleventyConfig.addFilter("sortBy", (collection, field) =>
     [...collection].sort((a, b) => {
-      const aVal = a.data[field] || '';
-      const bVal = b.data[field] || '';
+      const aVal = (field === 'fileSlug' ? a.fileSlug : a.data[field]) || '';
+      const bVal = (field === 'fileSlug' ? b.fileSlug : b.data[field]) || '';
       return aVal.localeCompare(bVal);
     }));
 

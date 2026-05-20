@@ -157,18 +157,18 @@ Ongoing plot arcs and questlines.
 ---
 
 ### Documents
-In-world writings authored by characters.
+In-world writings authored by characters or NPCs.
 
 | Field | Type | Description |
 |-------|------|-------------|
 | title | string | Document title |
 | type | string | `report`, `letter`, `journal`, `note`, etc. |
-| author | slug | Character who wrote it |
+| author | slug | Character or NPC who wrote it. Resolved against `characters` first, then `npcs` — if a character and NPC share a slug, the character wins. |
 | session | slug | Related session (optional) |
 | date | date | When written |
 
 **Reverse relationships:**
-- None currently
+- Listed on the author's character page, or on their NPC page if no character of that slug exists.
 
 ---
 

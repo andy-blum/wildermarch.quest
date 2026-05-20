@@ -23,5 +23,3 @@ With appropriate regards, Registry Field Asset — Western Frontier Posting
 Variations on a Coastal Air — composed in transit, offered to the archives as cultural documentation of frontier travel.
 
 ![Variations on a Coastal Air](/images/documents/variations-on-a-coastal-air.webp)
-
-

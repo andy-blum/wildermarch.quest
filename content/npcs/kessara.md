@@ -14,6 +14,10 @@ Kessara explained that the cultists had been extracting "stars from beneath the 
 
 She and the surviving lizardfolk returned to N.O.D.E. camp with the party.
 
-Kessara later received a letter from S'shar, captain of the Tidefang — the lizardfolk's largest vessel and Kessara's love interest. The letter, found inside a sea serpent and translated from Draconic by Mel, spoke of deep-beasts that crawl inside the mind and whisper without words. Kessara received it with alarm — the full moon had come and gone several times since S'shar's departure. She shared grim stories of sailors who stiffened mid-voyage and hurled themselves into the sea, returning with hollowed minds.
+Kessara later received a letter from S'shar, captain of the Tidefang — the lizardfolk's largest vessel and Kessara's warm-scale. The letter, found inside a sea serpent and translated from Draconic by Mel, spoke of deep-beasts that crawl inside the mind and whisper without words. Kessara received it with alarm — the full moon had come and gone several times since S'shar's departure. She shared grim stories of sailors who stiffened mid-voyage and hurled themselves into the sea, returning with hollowed minds.
 
 Kessara also explained that cultists had once come to camp offering work for crystal mining, but the lizardfolk refused — the swamp is sacred ground. The cultists answered with violence.
+
+**The Tidefang Returns.** Duty-bound to stay with her tribe, Kessara asked N.O.D.E. to search the southern sea caves in her stead — to find the Tidefang and rid her of "this cruel hope." She knew her warm-scale was likely lost, but she needed certainty. The party found the Tidefang and brought it home, bearing no fish and no triumphant crew — only the wrapped bodies of S'shar and four of his kin, the shattered tokens of courage their tribe's shaman had blessed, and the cairns the crew had built for those taken first.
+
+She told the party the Tidefang's crew were five to ten of her kin, that her people were not seafarers by nature — they preferred deserts and swamps, and even in summer the ocean ran too cold for their blood.
